@@ -1,0 +1,33 @@
+{
+  "model_loading_ms": 409.44,
+  "benchmarks": {
+    "Career Prediction": {
+      "requests": 50,
+      "mean_ms": 32.37,
+      "median_ms": 31.27,
+      "min_ms": 30.09,
+      "max_ms": 79.33
+    },
+    "Career Explanation": {
+      "requests": 50,
+      "mean_ms": 41.38,
+      "median_ms": 40.63,
+      "min_ms": 39.11,
+      "max_ms": 57.63
+    },
+    "Career Intelligence": {
+      "requests": 50,
+      "mean_ms": 31.91,
+      "median_ms": 31.82,
+      "min_ms": 30.56,
+      "max_ms": 33.54
+    },
+    "Project Recommendations": {
+      "requests": 50,
+      "mean_ms": 33.67,
+      "median_ms": 32.16,
+      "min_ms": 31.09,
+      "max_ms": 88.99
+    }
+  }
+}

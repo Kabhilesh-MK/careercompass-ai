@@ -1,0 +1,56 @@
+RAW LABEL,CANONICAL LABEL,STATUS,MAPPING REASON
+AI Engineer,AI & Machine Learning Engineering,RETAINED,"Direct machine learning, neural networks, and applied AI systems focus."
+Academic Coordinator,DISCARDED / OUT OF SCOPE,DISCARDED,Academic administration outside IT/CS scope.
+Accountant,DISCARDED / OUT OF SCOPE,DISCARDED,Corporate accounting and financial bookkeeping.
+Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,General physics and laboratory analysis lacking IT/CS focus.
+Animator,DISCARDED / OUT OF SCOPE,DISCARDED,Visual animation and multimedia creative arts.
+Assistant Manager,DISCARDED / OUT OF SCOPE,DISCARDED,General business commercial management.
+Auditor,DISCARDED / OUT OF SCOPE,DISCARDED,Financial taxation and compliance auditing.
+AutoCAD Designer,DISCARDED / OUT OF SCOPE,DISCARDED,Mechanical and civil drafting design.
+Business Analyst,Data Analytics & Business Intelligence,RETAINED,"Enterprise analytics, requirements engineering, and BI reporting."
+Civil Engineer,DISCARDED / OUT OF SCOPE,DISCARDED,Traditional civil construction engineering.
+Clerk,DISCARDED / OUT OF SCOPE,DISCARDED,General administrative and clerical office support.
+Consultant,DISCARDED / OUT OF SCOPE,DISCARDED,Social science research and general consulting.
+Content Writer,DISCARDED / OUT OF SCOPE,DISCARDED,"Journalism, content creation, and copywriting."
+Customer Support Executive,DISCARDED / OUT OF SCOPE,DISCARDED,Customer service and client helpline support.
+Data Analyst,Data Analytics & Business Intelligence,RETAINED,"Quantitative data analysis, SQL reporting, and business intelligence."
+Data Entry Operator,DISCARDED / OUT OF SCOPE,DISCARDED,"Clerical data typing, not data engineering or analytics."
+Data Scientist,AI & Machine Learning Engineering,RETAINED,"Machine learning modeling, scientific Python computing, and data inference."
+Design Engineer,DISCARDED / OUT OF SCOPE,DISCARDED,Hardware simulation and structural CAD engineering.
+Doctor,DISCARDED / OUT OF SCOPE,DISCARDED,Clinical medicine and healthcare diagnosis.
+Editor,DISCARDED / OUT OF SCOPE,DISCARDED,Publishing and editorial manuscript review.
+Electrical Engineer,DISCARDED / OUT OF SCOPE,DISCARDED,Power systems and electrical hardware engineering.
+Energy Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,Renewable energy and power grid systems analysis.
+Fashion Designer,DISCARDED / OUT OF SCOPE,DISCARDED,Apparel and textile fashion design.
+Finance Manager,DISCARDED / OUT OF SCOPE,DISCARDED,Corporate financial portfolio management.
+Financial Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,"Banking, investment, and equity financial analysis."
+General Practitioner,DISCARDED / OUT OF SCOPE,DISCARDED,Primary healthcare and general medical practice.
+Graphic Designer,DISCARDED / OUT OF SCOPE,DISCARDED,"Visual design, illustration, and branding."
+HR Specialist,DISCARDED / OUT OF SCOPE,DISCARDED,Human resources recruitment and employee relations.
+Journalist,DISCARDED / OUT OF SCOPE,DISCARDED,News reporting and political journalism.
+Junior Assistant,DISCARDED / OUT OF SCOPE,DISCARDED,Clerical office support and record keeping.
+Junior Engineer,DISCARDED / OUT OF SCOPE,DISCARDED,Mechanical and electrical maintenance operations.
+Lab Technician,DISCARDED / OUT OF SCOPE,DISCARDED,Natural sciences wet-laboratory technician work.
+Lecturer,DISCARDED / OUT OF SCOPE,DISCARDED,Higher-education academic teaching.
+Manager,DISCARDED / OUT OF SCOPE,DISCARDED,General operations and team personnel management.
+Marketing Executive,DISCARDED / OUT OF SCOPE,DISCARDED,Brand marketing and advertising sales.
+Mechanical Engineer,DISCARDED / OUT OF SCOPE,DISCARDED,Thermodynamics and mechanical machine engineering.
+Principal,DISCARDED / OUT OF SCOPE,DISCARDED,Educational institution executive leadership.
+Professor,DISCARDED / OUT OF SCOPE,DISCARDED,Academic university research and instruction.
+Receptionist,DISCARDED / OUT OF SCOPE,DISCARDED,Front-desk administrative reception.
+Research Assistant,DISCARDED / OUT OF SCOPE,DISCARDED,Biological laboratory research assistance.
+Research Scientist,DISCARDED / OUT OF SCOPE,DISCARDED,Chemical and physical natural sciences research.
+Sales Assistant,DISCARDED / OUT OF SCOPE,DISCARDED,Retail commercial sales support.
+Sales Executive,DISCARDED / OUT OF SCOPE,DISCARDED,Commercial sales and client acquisition.
+School Coordinator,DISCARDED / OUT OF SCOPE,DISCARDED,Secondary school student curriculum coordination.
+Senior Accountant,DISCARDED / OUT OF SCOPE,DISCARDED,Advanced financial accounting and reporting.
+Software Architect,Software Development & Engineering,RETAINED,"Software systems architecture, application frameworks, and senior software engineering (taxonomy correction from Database Engineering)."
+Software Developer,Software Development & Engineering,RETAINED,"Application programming, web systems, and core software engineering."
+Software Engineer,Software Development & Engineering,RETAINED,"Core computer science algorithms, systems programming, and software design."
+Surgeon,DISCARDED / OUT OF SCOPE,DISCARDED,Medical operative surgery.
+System Analyst,"Cloud, DevOps & Systems Engineering",RETAINED,"Systems analysis, enterprise computing environments, and infrastructure."
+Teacher,DISCARDED / OUT OF SCOPE,DISCARDED,Primary and secondary school classroom instruction.
+Technician,DISCARDED / OUT OF SCOPE,DISCARDED,Electrical wiring and hardware maintenance.
+Tutor,DISCARDED / OUT OF SCOPE,DISCARDED,Private educational tutoring and instruction.
+Web Developer,Software Development & Engineering,RETAINED,"Frontend, backend, and full-stack web application development."
+Writer,DISCARDED / OUT OF SCOPE,DISCARDED,Creative and literary book writing.

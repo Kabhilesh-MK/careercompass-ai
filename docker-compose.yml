@@ -1,0 +1,94 @@
+version: '3.9'
+
+services:
+  # ── FastAPI Backend ──────────────────────────────────────────────────────
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: careercompass-api
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGODB_URL=mongodb://mongo:27017
+      - MONGODB_DB_NAME=career_compass_ai
+      - JWT_SECRET_KEY=dev-secret-change-in-production
+      - JWT_ALGORITHM=HS256
+      - JWT_ACCESS_EXPIRE_MINUTES=60
+      - JWT_REFRESH_EXPIRE_DAYS=7
+      - ALLOWED_ORIGINS=http://localhost:5173,http://localhost:3000,http://localhost:80
+      - CORS_ORIGINS=http://localhost:5173,http://localhost:3000,http://localhost:80
+      - UPLOAD_DIR=app/uploads
+      - MAX_UPLOAD_SIZE_MB=5
+      - APP_NAME=CareerCompass AI
+      - APP_ENV=development
+      - APP_DEBUG=true
+    volumes:
+      - uploads:/app/app/uploads
+    depends_on:
+      mongo:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - careercompass
+
+  # ── MongoDB ──────────────────────────────────────────────────────────────
+  mongo:
+    image: mongo:7.0
+    container_name: careercompass-mongo
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=career_compass_ai
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.runCommand({ ping: 1 })"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - careercompass
+
+  # ── React Frontend (dev) ─────────────────────────────────────────────────
+  frontend:
+    image: node:20-alpine
+    container_name: careercompass-frontend
+    working_dir: /app
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:8000
+      - VITE_API_BASE_URL=http://localhost:8000
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: sh -c "npm install && npm run dev -- --host"
+    depends_on:
+      - api
+    networks:
+      - careercompass
+
+  # ── React Frontend (prod container) ──────────────────────────────────────
+  frontend-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: careercompass-frontend-prod
+    ports:
+      - "80:80"
+    profiles:
+      - prod
+    depends_on:
+      - api
+    networks:
+      - careercompass
+
+volumes:
+  mongo_data:
+  uploads:
+
+networks:
+  careercompass:
+    driver: bridge

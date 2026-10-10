@@ -1,0 +1,43 @@
+# Dependencies
+node_modules
+**/node_modules
+backend/venv
+venv
+.venv
+env
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Python cache & test artifacts
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache
+.coverage
+htmlcov
+*.log
+logs
+
+# Build outputs
+dist
+dist-ssr
+build
+
+# Git & IDE metadata
+.git
+.gitignore
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+.bolt
+
+# Development scratch
+scratch

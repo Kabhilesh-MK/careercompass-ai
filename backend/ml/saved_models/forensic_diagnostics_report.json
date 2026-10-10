@@ -1,0 +1,1143 @@
+{
+  "preference_probe": {
+    "features": [
+      "Interest",
+      "Preferred Domain"
+    ],
+    "logistic_regression": {
+      "cv_accuracy_mean": 0.0788,
+      "cv_accuracy_std": 0.0039,
+      "cv_macro_f1_mean": 0.0558,
+      "cv_macro_f1_std": 0.0036
+    },
+    "decision_tree": {
+      "cv_accuracy_mean": 0.098,
+      "cv_accuracy_std": 0.0086,
+      "cv_macro_f1_mean": 0.0788,
+      "cv_macro_f1_std": 0.0058
+    },
+    "confusion_matrix": [
+      [
+        52,
+        103,
+        0,
+        0,
+        54,
+        29,
+        29,
+        0,
+        0,
+        48,
+        0,
+        21,
+        0,
+        54
+      ],
+      [
+        44,
+        87,
+        0,
+        0,
+        55,
+        38,
+        34,
+        0,
+        0,
+        66,
+        0,
+        25,
+        0,
+        47
+      ],
+      [
+        37,
+        74,
+        0,
+        0,
+        67,
+        35,
+        45,
+        0,
+        0,
+        44,
+        0,
+        14,
+        0,
+        39
+      ],
+      [
+        25,
+        92,
+        0,
+        0,
+        42,
+        41,
+        34,
+        0,
+        0,
+        52,
+        0,
+        22,
+        0,
+        43
+      ],
+      [
+        42,
+        92,
+        0,
+        0,
+        55,
+        36,
+        28,
+        0,
+        0,
+        44,
+        0,
+        37,
+        0,
+        43
+      ],
+      [
+        41,
+        66,
+        0,
+        0,
+        62,
+        40,
+        35,
+        0,
+        0,
+        37,
+        0,
+        21,
+        0,
+        45
+      ],
+      [
+        47,
+        78,
+        0,
+        0,
+        38,
+        33,
+        43,
+        0,
+        0,
+        26,
+        0,
+        26,
+        0,
+        42
+      ],
+      [
+        27,
+        71,
+        0,
+        0,
+        53,
+        29,
+        34,
+        0,
+        0,
+        42,
+        0,
+        16,
+        0,
+        41
+      ],
+      [
+        55,
+        79,
+        0,
+        0,
+        64,
+        24,
+        27,
+        0,
+        0,
+        63,
+        0,
+        18,
+        0,
+        41
+      ],
+      [
+        43,
+        72,
+        0,
+        0,
+        36,
+        22,
+        26,
+        0,
+        0,
+        74,
+        0,
+        17,
+        0,
+        47
+      ],
+      [
+        43,
+        83,
+        0,
+        0,
+        36,
+        29,
+        32,
+        0,
+        0,
+        35,
+        0,
+        25,
+        0,
+        39
+      ],
+      [
+        41,
+        88,
+        0,
+        0,
+        63,
+        40,
+        30,
+        0,
+        0,
+        56,
+        0,
+        24,
+        0,
+        46
+      ],
+      [
+        44,
+        75,
+        0,
+        0,
+        60,
+        38,
+        35,
+        0,
+        0,
+        46,
+        0,
+        20,
+        0,
+        45
+      ],
+      [
+        41,
+        71,
+        0,
+        0,
+        42,
+        36,
+        35,
+        0,
+        0,
+        57,
+        0,
+        18,
+        0,
+        57
+      ]
+    ]
+  },
+  "single_skill_probes": [
+    {
+      "skill": "SQL",
+      "type": "Technical",
+      "accuracy_mean": 0.0864,
+      "accuracy_std": 0.0078,
+      "macro_f1_mean": 0.0413,
+      "macro_f1_std": 0.0059
+    },
+    {
+      "skill": "GitHub",
+      "type": "Technical",
+      "accuracy_mean": 0.0866,
+      "accuracy_std": 0.0065,
+      "macro_f1_mean": 0.0389,
+      "macro_f1_std": 0.0057
+    },
+    {
+      "skill": "Deep Learning",
+      "type": "Technical",
+      "accuracy_mean": 0.0848,
+      "accuracy_std": 0.0044,
+      "macro_f1_mean": 0.0385,
+      "macro_f1_std": 0.0025
+    },
+    {
+      "skill": "Power BI",
+      "type": "Technical",
+      "accuracy_mean": 0.084,
+      "accuracy_std": 0.0085,
+      "macro_f1_mean": 0.038,
+      "macro_f1_std": 0.0073
+    },
+    {
+      "skill": "JavaScript",
+      "type": "Technical",
+      "accuracy_mean": 0.0874,
+      "accuracy_std": 0.0065,
+      "macro_f1_mean": 0.0379,
+      "macro_f1_std": 0.0051
+    },
+    {
+      "skill": "MongoDB",
+      "type": "Technical",
+      "accuracy_mean": 0.0814,
+      "accuracy_std": 0.0049,
+      "macro_f1_mean": 0.0379,
+      "macro_f1_std": 0.0059
+    },
+    {
+      "skill": "HTML",
+      "type": "Technical",
+      "accuracy_mean": 0.0882,
+      "accuracy_std": 0.0047,
+      "macro_f1_mean": 0.0377,
+      "macro_f1_std": 0.0022
+    },
+    {
+      "skill": "CSS",
+      "type": "Technical",
+      "accuracy_mean": 0.0878,
+      "accuracy_std": 0.0007,
+      "macro_f1_mean": 0.0376,
+      "macro_f1_std": 0.0029
+    },
+    {
+      "skill": "React",
+      "type": "Technical",
+      "accuracy_mean": 0.087,
+      "accuracy_std": 0.0041,
+      "macro_f1_mean": 0.0373,
+      "macro_f1_std": 0.0029
+    },
+    {
+      "skill": "MySQL",
+      "type": "Technical",
+      "accuracy_mean": 0.0862,
+      "accuracy_std": 0.0062,
+      "macro_f1_mean": 0.0373,
+      "macro_f1_std": 0.0034
+    },
+    {
+      "skill": "Aptitude",
+      "type": "Soft",
+      "accuracy_mean": 0.0864,
+      "accuracy_std": 0.0052,
+      "macro_f1_mean": 0.0367,
+      "macro_f1_std": 0.0076
+    },
+    {
+      "skill": "NodeJS",
+      "type": "Technical",
+      "accuracy_mean": 0.0946,
+      "accuracy_std": 0.0045,
+      "macro_f1_mean": 0.0366,
+      "macro_f1_std": 0.0047
+    },
+    {
+      "skill": "Machine Learning",
+      "type": "Technical",
+      "accuracy_mean": 0.0838,
+      "accuracy_std": 0.0062,
+      "macro_f1_mean": 0.0355,
+      "macro_f1_std": 0.0048
+    },
+    {
+      "skill": "Python",
+      "type": "Technical",
+      "accuracy_mean": 0.0834,
+      "accuracy_std": 0.0068,
+      "macro_f1_mean": 0.0344,
+      "macro_f1_std": 0.0035
+    },
+    {
+      "skill": "Git",
+      "type": "Technical",
+      "accuracy_mean": 0.0788,
+      "accuracy_std": 0.0068,
+      "macro_f1_mean": 0.033,
+      "macro_f1_std": 0.0067
+    },
+    {
+      "skill": "Excel",
+      "type": "Technical",
+      "accuracy_mean": 0.0836,
+      "accuracy_std": 0.0039,
+      "macro_f1_mean": 0.033,
+      "macro_f1_std": 0.0041
+    },
+    {
+      "skill": "Java",
+      "type": "Technical",
+      "accuracy_mean": 0.0872,
+      "accuracy_std": 0.0033,
+      "macro_f1_mean": 0.0326,
+      "macro_f1_std": 0.002
+    },
+    {
+      "skill": "Linux",
+      "type": "Technical",
+      "accuracy_mean": 0.0866,
+      "accuracy_std": 0.006,
+      "macro_f1_mean": 0.0326,
+      "macro_f1_std": 0.0048
+    },
+    {
+      "skill": "Statistics",
+      "type": "Technical",
+      "accuracy_mean": 0.0846,
+      "accuracy_std": 0.0063,
+      "macro_f1_mean": 0.0317,
+      "macro_f1_std": 0.0053
+    },
+    {
+      "skill": "Docker",
+      "type": "Technical",
+      "accuracy_mean": 0.0826,
+      "accuracy_std": 0.007,
+      "macro_f1_mean": 0.0314,
+      "macro_f1_std": 0.0045
+    },
+    {
+      "skill": "C++",
+      "type": "Technical",
+      "accuracy_mean": 0.0804,
+      "accuracy_std": 0.0038,
+      "macro_f1_mean": 0.0311,
+      "macro_f1_std": 0.0038
+    },
+    {
+      "skill": "AWS",
+      "type": "Technical",
+      "accuracy_mean": 0.0838,
+      "accuracy_std": 0.0038,
+      "macro_f1_mean": 0.0311,
+      "macro_f1_std": 0.0041
+    },
+    {
+      "skill": "Teamwork",
+      "type": "Soft",
+      "accuracy_mean": 0.0818,
+      "accuracy_std": 0.0019,
+      "macro_f1_mean": 0.031,
+      "macro_f1_std": 0.0018
+    },
+    {
+      "skill": "Communication",
+      "type": "Soft",
+      "accuracy_mean": 0.0832,
+      "accuracy_std": 0.0047,
+      "macro_f1_mean": 0.0309,
+      "macro_f1_std": 0.0022
+    },
+    {
+      "skill": "Problem Solving",
+      "type": "Soft",
+      "accuracy_mean": 0.0828,
+      "accuracy_std": 0.0057,
+      "macro_f1_mean": 0.0302,
+      "macro_f1_std": 0.0028
+    },
+    {
+      "skill": "Azure",
+      "type": "Technical",
+      "accuracy_mean": 0.0844,
+      "accuracy_std": 0.0055,
+      "macro_f1_mean": 0.0289,
+      "macro_f1_std": 0.0024
+    },
+    {
+      "skill": "Leadership",
+      "type": "Soft",
+      "accuracy_mean": 0.0844,
+      "accuracy_std": 0.0024,
+      "macro_f1_mean": 0.0246,
+      "macro_f1_std": 0.0033
+    }
+  ],
+  "incremental_skill_probes": {
+    "Top_1_Skill": {
+      "features": [
+        "SQL"
+      ],
+      "count": 1,
+      "cv_accuracy_mean": 0.0858,
+      "cv_accuracy_std": 0.0091,
+      "cv_macro_f1_mean": 0.04,
+      "cv_macro_f1_std": 0.0084
+    },
+    "Top_3_Skills": {
+      "features": [
+        "SQL",
+        "GitHub",
+        "Deep Learning"
+      ],
+      "count": 3,
+      "cv_accuracy_mean": 0.096,
+      "cv_accuracy_std": 0.0043,
+      "cv_macro_f1_mean": 0.0713,
+      "cv_macro_f1_std": 0.0031
+    },
+    "Top_5_Skills": {
+      "features": [
+        "SQL",
+        "GitHub",
+        "Deep Learning",
+        "Power BI",
+        "JavaScript"
+      ],
+      "count": 5,
+      "cv_accuracy_mean": 0.0888,
+      "cv_accuracy_std": 0.0058,
+      "cv_macro_f1_mean": 0.0693,
+      "cv_macro_f1_std": 0.0041
+    },
+    "All_27_Skills": {
+      "features": [
+        "Python",
+        "Java",
+        "C++",
+        "SQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "NodeJS",
+        "MongoDB",
+        "MySQL",
+        "Git",
+        "GitHub",
+        "AWS",
+        "Azure",
+        "Docker",
+        "Linux",
+        "Machine Learning",
+        "Deep Learning",
+        "Power BI",
+        "Excel",
+        "Statistics",
+        "Communication",
+        "Problem Solving",
+        "Leadership",
+        "Teamwork",
+        "Aptitude"
+      ],
+      "count": 27,
+      "cv_accuracy_mean": 0.0876,
+      "cv_accuracy_std": 0.01,
+      "cv_macro_f1_mean": 0.0816,
+      "cv_macro_f1_std": 0.0111
+    }
+  },
+  "pairwise_overlap": [
+    {
+      "career_1": "Frontend Developer",
+      "career_2": "Full Stack Developer",
+      "skill_comparisons": [
+        {
+          "skill": "React",
+          "c1_mean": 47.54,
+          "c2_mean": 49.94,
+          "cohens_d": -0.153,
+          "histogram_intersection": 0.8176
+        },
+        {
+          "skill": "JavaScript",
+          "c1_mean": 46.06,
+          "c2_mean": 49.77,
+          "cohens_d": -0.258,
+          "histogram_intersection": 0.7998
+        },
+        {
+          "skill": "HTML",
+          "c1_mean": 46.87,
+          "c2_mean": 50.93,
+          "cohens_d": -0.272,
+          "histogram_intersection": 0.8009
+        },
+        {
+          "skill": "CSS",
+          "c1_mean": 48.29,
+          "c2_mean": 50.5,
+          "cohens_d": -0.127,
+          "histogram_intersection": 0.8515
+        }
+      ]
+    },
+    {
+      "career_1": "Backend Developer",
+      "career_2": "Software Engineer",
+      "skill_comparisons": [
+        {
+          "skill": "Python",
+          "c1_mean": 47.37,
+          "c2_mean": 48.41,
+          "cohens_d": -0.08,
+          "histogram_intersection": 0.8626
+        },
+        {
+          "skill": "Java",
+          "c1_mean": 48.52,
+          "c2_mean": 48.08,
+          "cohens_d": 0.032,
+          "histogram_intersection": 0.8117
+        },
+        {
+          "skill": "SQL",
+          "c1_mean": 47.13,
+          "c2_mean": 48.91,
+          "cohens_d": -0.126,
+          "histogram_intersection": 0.8459
+        },
+        {
+          "skill": "Linux",
+          "c1_mean": 47.65,
+          "c2_mean": 47.92,
+          "cohens_d": -0.02,
+          "histogram_intersection": 0.8205
+        }
+      ]
+    },
+    {
+      "career_1": "Data Analyst",
+      "career_2": "Data Scientist",
+      "skill_comparisons": [
+        {
+          "skill": "SQL",
+          "c1_mean": 45.59,
+          "c2_mean": 47.88,
+          "cohens_d": -0.166,
+          "histogram_intersection": 0.8436
+        },
+        {
+          "skill": "Statistics",
+          "c1_mean": 46.17,
+          "c2_mean": 48.9,
+          "cohens_d": -0.196,
+          "histogram_intersection": 0.829
+        },
+        {
+          "skill": "Power BI",
+          "c1_mean": 46.58,
+          "c2_mean": 49.05,
+          "cohens_d": -0.162,
+          "histogram_intersection": 0.7882
+        },
+        {
+          "skill": "Excel",
+          "c1_mean": 46.58,
+          "c2_mean": 49.11,
+          "cohens_d": -0.161,
+          "histogram_intersection": 0.791
+        }
+      ]
+    },
+    {
+      "career_1": "Data Scientist",
+      "career_2": "ML Engineer",
+      "skill_comparisons": [
+        {
+          "skill": "Python",
+          "c1_mean": 48.6,
+          "c2_mean": 47.27,
+          "cohens_d": 0.101,
+          "histogram_intersection": 0.8293
+        },
+        {
+          "skill": "Machine Learning",
+          "c1_mean": 49.63,
+          "c2_mean": 46.39,
+          "cohens_d": 0.221,
+          "histogram_intersection": 0.8229
+        },
+        {
+          "skill": "Statistics",
+          "c1_mean": 48.9,
+          "c2_mean": 48.04,
+          "cohens_d": 0.06,
+          "histogram_intersection": 0.835
+        },
+        {
+          "skill": "Deep Learning",
+          "c1_mean": 49.61,
+          "c2_mean": 47.33,
+          "cohens_d": 0.147,
+          "histogram_intersection": 0.7784
+        }
+      ]
+    },
+    {
+      "career_1": "Cloud Engineer",
+      "career_2": "DevOps Engineer",
+      "skill_comparisons": [
+        {
+          "skill": "Docker",
+          "c1_mean": 45.06,
+          "c2_mean": 45.7,
+          "cohens_d": -0.045,
+          "histogram_intersection": 0.7841
+        },
+        {
+          "skill": "Linux",
+          "c1_mean": 44.52,
+          "c2_mean": 45.7,
+          "cohens_d": -0.085,
+          "histogram_intersection": 0.8368
+        },
+        {
+          "skill": "AWS",
+          "c1_mean": 45.12,
+          "c2_mean": 46.32,
+          "cohens_d": -0.086,
+          "histogram_intersection": 0.8452
+        },
+        {
+          "skill": "Azure",
+          "c1_mean": 44.94,
+          "c2_mean": 46.36,
+          "cohens_d": -0.103,
+          "histogram_intersection": 0.8321
+        }
+      ]
+    },
+    {
+      "career_1": "Data Analyst",
+      "career_2": "Business Analyst",
+      "skill_comparisons": [
+        {
+          "skill": "Excel",
+          "c1_mean": 46.58,
+          "c2_mean": 46.33,
+          "cohens_d": 0.016,
+          "histogram_intersection": 0.8396
+        },
+        {
+          "skill": "Power BI",
+          "c1_mean": 46.58,
+          "c2_mean": 45.54,
+          "cohens_d": 0.069,
+          "histogram_intersection": 0.8
+        },
+        {
+          "skill": "Communication",
+          "c1_mean": 46.27,
+          "c2_mean": 45.62,
+          "cohens_d": 0.043,
+          "histogram_intersection": 0.8293
+        },
+        {
+          "skill": "SQL",
+          "c1_mean": 45.59,
+          "c2_mean": 45.0,
+          "cohens_d": 0.044,
+          "histogram_intersection": 0.862
+        }
+      ]
+    }
+  ],
+  "information_diagnostics": [
+    {
+      "skill": "NodeJS",
+      "anova_f": 9.08,
+      "p_value": 8.542462600746683e-19,
+      "eta_squared": 0.0231,
+      "mutual_info_nats": 0.0002
+    },
+    {
+      "skill": "MySQL",
+      "anova_f": 9.08,
+      "p_value": 8.693103192378052e-19,
+      "eta_squared": 0.0231,
+      "mutual_info_nats": 0.003
+    },
+    {
+      "skill": "JavaScript",
+      "anova_f": 8.07,
+      "p_value": 2.917579499661009e-16,
+      "eta_squared": 0.0206,
+      "mutual_info_nats": 0.0059
+    },
+    {
+      "skill": "HTML",
+      "anova_f": 7.75,
+      "p_value": 1.750174994025541e-15,
+      "eta_squared": 0.0198,
+      "mutual_info_nats": 0.011
+    },
+    {
+      "skill": "CSS",
+      "anova_f": 7.27,
+      "p_value": 2.646909199391945e-14,
+      "eta_squared": 0.0186,
+      "mutual_info_nats": 0.0071
+    },
+    {
+      "skill": "MongoDB",
+      "anova_f": 7.06,
+      "p_value": 8.908863094205416e-14,
+      "eta_squared": 0.0181,
+      "mutual_info_nats": 0.0163
+    },
+    {
+      "skill": "Python",
+      "anova_f": 7.02,
+      "p_value": 1.0958840323742428e-13,
+      "eta_squared": 0.018,
+      "mutual_info_nats": 0.0163
+    },
+    {
+      "skill": "React",
+      "anova_f": 6.86,
+      "p_value": 2.7216205355272755e-13,
+      "eta_squared": 0.0176,
+      "mutual_info_nats": 0.0207
+    },
+    {
+      "skill": "Java",
+      "anova_f": 6.85,
+      "p_value": 2.88821226276662e-13,
+      "eta_squared": 0.0175,
+      "mutual_info_nats": 0.0157
+    },
+    {
+      "skill": "SQL",
+      "anova_f": 6.67,
+      "p_value": 7.992498336143925e-13,
+      "eta_squared": 0.0171,
+      "mutual_info_nats": 0.0
+    },
+    {
+      "skill": "GitHub",
+      "anova_f": 6.64,
+      "p_value": 9.251591699949882e-13,
+      "eta_squared": 0.017,
+      "mutual_info_nats": 0.0121
+    },
+    {
+      "skill": "Statistics",
+      "anova_f": 6.15,
+      "p_value": 1.4290204440064853e-11,
+      "eta_squared": 0.0158,
+      "mutual_info_nats": 0.0124
+    },
+    {
+      "skill": "Machine Learning",
+      "anova_f": 6.13,
+      "p_value": 1.5760000298870242e-11,
+      "eta_squared": 0.0157,
+      "mutual_info_nats": 0.0082
+    },
+    {
+      "skill": "Git",
+      "anova_f": 5.8,
+      "p_value": 9.951833768491573e-11,
+      "eta_squared": 0.0149,
+      "mutual_info_nats": 0.0192
+    },
+    {
+      "skill": "Excel",
+      "anova_f": 5.78,
+      "p_value": 1.1220759556871326e-10,
+      "eta_squared": 0.0148,
+      "mutual_info_nats": 0.0105
+    },
+    {
+      "skill": "Power BI",
+      "anova_f": 5.15,
+      "p_value": 3.3943102899151642e-09,
+      "eta_squared": 0.0133,
+      "mutual_info_nats": 0.0
+    },
+    {
+      "skill": "Aptitude",
+      "anova_f": 5.12,
+      "p_value": 4.073648289332088e-09,
+      "eta_squared": 0.0132,
+      "mutual_info_nats": 0.0
+    },
+    {
+      "skill": "Deep Learning",
+      "anova_f": 5.07,
+      "p_value": 5.1646899243073275e-09,
+      "eta_squared": 0.0131,
+      "mutual_info_nats": 0.0
+    },
+    {
+      "skill": "C++",
+      "anova_f": 5.0,
+      "p_value": 7.472708354396884e-09,
+      "eta_squared": 0.0129,
+      "mutual_info_nats": 0.0176
+    },
+    {
+      "skill": "AWS",
+      "anova_f": 4.97,
+      "p_value": 9.13990285561442e-09,
+      "eta_squared": 0.0128,
+      "mutual_info_nats": 0.0016
+    },
+    {
+      "skill": "Docker",
+      "anova_f": 4.8,
+      "p_value": 2.1810572044453085e-08,
+      "eta_squared": 0.0124,
+      "mutual_info_nats": 0.0
+    },
+    {
+      "skill": "Linux",
+      "anova_f": 4.74,
+      "p_value": 3.0784999451809866e-08,
+      "eta_squared": 0.0122,
+      "mutual_info_nats": 0.0083
+    },
+    {
+      "skill": "Problem Solving",
+      "anova_f": 4.6,
+      "p_value": 6.446490409773778e-08,
+      "eta_squared": 0.0119,
+      "mutual_info_nats": 0.004
+    },
+    {
+      "skill": "Azure",
+      "anova_f": 4.24,
+      "p_value": 4.194926647952835e-07,
+      "eta_squared": 0.0109,
+      "mutual_info_nats": 0.0
+    },
+    {
+      "skill": "Communication",
+      "anova_f": 2.19,
+      "p_value": 0.007828359148361433,
+      "eta_squared": 0.0057,
+      "mutual_info_nats": 0.0048
+    },
+    {
+      "skill": "Teamwork",
+      "anova_f": 1.89,
+      "p_value": 0.026529402423525382,
+      "eta_squared": 0.0049,
+      "mutual_info_nats": 0.0205
+    },
+    {
+      "skill": "Leadership",
+      "anova_f": 1.49,
+      "p_value": 0.11402725589630297,
+      "eta_squared": 0.0039,
+      "mutual_info_nats": 0.0
+    }
+  ],
+  "class_balance": {
+    "total_records": 5000,
+    "class_counts": {
+      "Backend Developer": 396,
+      "AI Engineer": 390,
+      "Mobile App Developer": 388,
+      "Cybersecurity Analyst": 377,
+      "Frontend Developer": 371,
+      "QA Engineer": 363,
+      "Software Engineer": 357,
+      "Business Analyst": 355,
+      "Cloud Engineer": 351,
+      "Data Analyst": 347,
+      "Full Stack Developer": 337,
+      "Data Scientist": 333,
+      "ML Engineer": 322,
+      "DevOps Engineer": 313
+    },
+    "expected_count": 357.14285714285717,
+    "min_count": 313,
+    "max_count": 396,
+    "mean_count": 357.14,
+    "std_count": 25.54,
+    "chi_square_statistic": 23.7432,
+    "chi_square_p_value": 0.0336
+  },
+  "ambiguous_profiles": [
+    {
+      "profile_name": "Hybrid: Frontend + Backend",
+      "top_prediction": "Backend Developer",
+      "top_1_probability": 13.52,
+      "top_2_probability": 13.28,
+      "top1_top2_ratio": 1.02,
+      "top_5_entropy_norm": 0.999,
+      "top_5_careers": [
+        {
+          "career": "Backend Developer",
+          "probability": 13.52
+        },
+        {
+          "career": "Full Stack Developer",
+          "probability": 13.28
+        },
+        {
+          "career": "AI Engineer",
+          "probability": 12.59
+        },
+        {
+          "career": "Frontend Developer",
+          "probability": 12.14
+        },
+        {
+          "career": "Software Engineer",
+          "probability": 11.62
+        }
+      ]
+    },
+    {
+      "profile_name": "Hybrid: Backend + Data",
+      "top_prediction": "Software Engineer",
+      "top_1_probability": 15.98,
+      "top_2_probability": 12.01,
+      "top1_top2_ratio": 1.33,
+      "top_5_entropy_norm": 0.9786,
+      "top_5_careers": [
+        {
+          "career": "Software Engineer",
+          "probability": 15.98
+        },
+        {
+          "career": "Data Analyst",
+          "probability": 12.01
+        },
+        {
+          "career": "Data Scientist",
+          "probability": 11.7
+        },
+        {
+          "career": "Backend Developer",
+          "probability": 8.41
+        },
+        {
+          "career": "AI Engineer",
+          "probability": 7.73
+        }
+      ]
+    },
+    {
+      "profile_name": "Hybrid: Backend + Cloud",
+      "top_prediction": "Backend Developer",
+      "top_1_probability": 13.86,
+      "top_2_probability": 9.35,
+      "top1_top2_ratio": 1.48,
+      "top_5_entropy_norm": 0.9846,
+      "top_5_careers": [
+        {
+          "career": "Backend Developer",
+          "probability": 13.86
+        },
+        {
+          "career": "DevOps Engineer",
+          "probability": 9.35
+        },
+        {
+          "career": "Software Engineer",
+          "probability": 9.3
+        },
+        {
+          "career": "ML Engineer",
+          "probability": 7.97
+        },
+        {
+          "career": "Cloud Engineer",
+          "probability": 7.67
+        }
+      ]
+    },
+    {
+      "profile_name": "Hybrid: Data + ML",
+      "top_prediction": "Data Analyst",
+      "top_1_probability": 15.9,
+      "top_2_probability": 12.76,
+      "top1_top2_ratio": 1.25,
+      "top_5_entropy_norm": 0.9778,
+      "top_5_careers": [
+        {
+          "career": "Data Analyst",
+          "probability": 15.9
+        },
+        {
+          "career": "Data Scientist",
+          "probability": 12.76
+        },
+        {
+          "career": "QA Engineer",
+          "probability": 9.97
+        },
+        {
+          "career": "ML Engineer",
+          "probability": 8.37
+        },
+        {
+          "career": "AI Engineer",
+          "probability": 7.93
+        }
+      ]
+    },
+    {
+      "profile_name": "Hybrid: Cloud + DevOps",
+      "top_prediction": "Cloud Engineer",
+      "top_1_probability": 10.98,
+      "top_2_probability": 10.73,
+      "top1_top2_ratio": 1.02,
+      "top_5_entropy_norm": 0.9978,
+      "top_5_careers": [
+        {
+          "career": "Cloud Engineer",
+          "probability": 10.98
+        },
+        {
+          "career": "ML Engineer",
+          "probability": 10.73
+        },
+        {
+          "career": "Software Engineer",
+          "probability": 10.13
+        },
+        {
+          "career": "AI Engineer",
+          "probability": 9.58
+        },
+        {
+          "career": "Backend Developer",
+          "probability": 8.67
+        }
+      ]
+    },
+    {
+      "profile_name": "Hybrid: AI/ML + Software Engineering",
+      "top_prediction": "QA Engineer",
+      "top_1_probability": 15.15,
+      "top_2_probability": 10.53,
+      "top1_top2_ratio": 1.44,
+      "top_5_entropy_norm": 0.9761,
+      "top_5_careers": [
+        {
+          "career": "QA Engineer",
+          "probability": 15.15
+        },
+        {
+          "career": "Backend Developer",
+          "probability": 10.53
+        },
+        {
+          "career": "AI Engineer",
+          "probability": 9.76
+        },
+        {
+          "career": "ML Engineer",
+          "probability": 7.42
+        },
+        {
+          "career": "Mobile App Developer",
+          "probability": 7.3
+        }
+      ]
+    }
+  ]
+}

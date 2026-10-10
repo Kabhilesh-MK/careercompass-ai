@@ -1,0 +1,38 @@
+services:
+  # ── FastAPI Backend ────────────────────────────────────────────────────────
+  - type: web
+    name: careercompass-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    envVars:
+      - key: MONGODB_URL
+        sync: false          # Set this in the Render dashboard (MongoDB Atlas connection string)
+      - key: MONGODB_DB_NAME
+        value: career_compass_ai
+      - key: JWT_SECRET_KEY
+        generateValue: true  # Render auto-generates a secure random value
+      - key: JWT_ALGORITHM
+        value: HS256
+      - key: JWT_ACCESS_EXPIRE_MINUTES
+        value: "60"
+      - key: JWT_REFRESH_EXPIRE_DAYS
+        value: "7"
+      - key: ALLOWED_ORIGINS
+        sync: false          # Set to your Vercel frontend URL (e.g. https://your-app.vercel.app)
+      - key: CORS_ORIGINS
+        sync: false          # Matches ALLOWED_ORIGINS (e.g. https://your-app.vercel.app)
+      - key: UPLOAD_DIR
+        value: app/uploads
+      - key: MAX_UPLOAD_SIZE_MB
+        value: "5"
+      - key: APP_NAME
+        value: CareerCompass AI
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: "false"
+    healthCheckPath: /api/v1/ready
+    autoDeploy: true
+

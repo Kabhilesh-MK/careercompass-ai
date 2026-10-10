@@ -1,0 +1,193 @@
+sample_index,true_label,predicted_label,prob_AI & Machine Learning Engineering,"prob_Cloud, DevOps & Systems Engineering",prob_Data Analytics & Business Intelligence,prob_Software Development & Engineering
+0,Software Development & Engineering,AI & Machine Learning Engineering,0.9127777777777777,0.0,0.0,0.08722222222222221
+1,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.0033333333333333335,0.0,0.9733333333333334,0.023333333333333334
+2,Software Development & Engineering,Software Development & Engineering,0.06722222222222222,0.009518518518518516,0.02666666666666667,0.8965925925925925
+3,"Cloud, DevOps & Systems Engineering","Cloud, DevOps & Systems Engineering",0.0,0.7009359066859064,0.0,0.2990640933140935
+4,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9566666666666667,0.0008333333333333334,0.013333333333333334,0.029166666666666667
+5,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.6815198412698412,0.0,0.0,0.3184801587301587
+6,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.868027561366907,0.0,0.13197243863309285
+7,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.01,0.0,0.9866666666666667,0.0033333333333333335
+8,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.006666666666666667,0.0,0.98,0.013333333333333334
+9,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.981111111111111,0.0,0.006666666666666667,0.012222222222222221
+10,Software Development & Engineering,AI & Machine Learning Engineering,0.5272222222222221,0.0,0.01,0.4627777777777779
+11,"Cloud, DevOps & Systems Engineering",Software Development & Engineering,0.0033333333333333335,0.16333455141349873,0.0033333333333333335,0.8299987819198346
+12,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.013333333333333334,0.0,0.98,0.006666666666666667
+13,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.5387777777777778,0.0,0.0,0.46122222222222203
+14,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.9280011268143621,0.0,0.07199887318563786
+15,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.023333333333333334,0.0,0.9666666666666667,0.01
+16,"Cloud, DevOps & Systems Engineering",Software Development & Engineering,0.0,0.33121622359122355,0.0,0.6687837764087766
+17,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.006666666666666667,0.0,0.9833333333333333,0.01
+18,"Cloud, DevOps & Systems Engineering",Software Development & Engineering,0.0,0.038914844142785315,0.0,0.9610851558572145
+19,Software Development & Engineering,AI & Machine Learning Engineering,0.7483333333333333,0.0,0.0033333333333333335,0.24833333333333332
+20,AI & Machine Learning Engineering,Software Development & Engineering,0.4750079365079364,0.0025,0.0033333333333333335,0.5191587301587303
+21,Software Development & Engineering,Software Development & Engineering,0.1388888888888889,0.0,0.25333333333333335,0.6077777777777778
+22,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.8028650793650793,0.0,0.0033333333333333335,0.19380158730158728
+23,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9585,0.0,0.02,0.021500000000000002
+24,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.005333333333333334,0.006666666666666667,0.9633333333333334,0.024666666666666667
+25,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.8940722749472754,0.0,0.10592772505272498
+26,"Cloud, DevOps & Systems Engineering","Cloud, DevOps & Systems Engineering",0.0,0.5930860528360529,0.0,0.4069139471639473
+27,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9433333333333334,0.0,0.043333333333333335,0.013333333333333334
+28,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.006666666666666667,0.0,0.99,0.0033333333333333335
+29,AI & Machine Learning Engineering,Software Development & Engineering,0.30076984126984135,0.0,0.0,0.6992301587301587
+30,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.013333333333333334,0.0,0.9666666666666667,0.02
+31,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.8288905723905725,0.0,0.17110942760942774
+32,Software Development & Engineering,AI & Machine Learning Engineering,0.8344444444444444,0.0,0.0,0.16555555555555554
+33,AI & Machine Learning Engineering,Software Development & Engineering,0.37833333333333335,0.0,0.0033333333333333335,0.6183333333333333
+34,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.01,0.0,0.99,0.0
+35,"Cloud, DevOps & Systems Engineering",Software Development & Engineering,0.0,0.3154811382144972,0.0,0.6845188617855029
+36,"Cloud, DevOps & Systems Engineering","Cloud, DevOps & Systems Engineering",0.0,0.6177836700336699,0.0,0.3822163299663299
+37,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.0,0.0,0.9966666666666667,0.0033333333333333335
+38,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9141111111111112,0.003833333333333333,0.02666666666666667,0.05538888888888889
+39,Software Development & Engineering,AI & Machine Learning Engineering,0.7105555555555556,0.0,0.0,0.28944444444444445
+40,"Cloud, DevOps & Systems Engineering","Cloud, DevOps & Systems Engineering",0.0,0.7462531950620185,0.0,0.2537468049379817
+41,Software Development & Engineering,AI & Machine Learning Engineering,0.7890198412698414,0.0,0.0,0.21098015873015874
+42,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.7488942677692674,0.0,0.2511057322307324
+43,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.015,0.0,0.98,0.005
+44,Software Development & Engineering,Software Development & Engineering,0.0,0.03761073546909461,0.0,0.9623892645309055
+45,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9176666666666667,0.006973544973544974,0.03333333333333333,0.04202645502645502
+46,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.542844535094535,0.0,0.4571554649054651
+47,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.5596798941798942,0.0,0.0,0.4403201058201057
+48,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.013333333333333334,0.0,0.98,0.006666666666666667
+49,AI & Machine Learning Engineering,Software Development & Engineering,0.22666666666666666,0.0,0.0,0.7733333333333333
+50,AI & Machine Learning Engineering,Software Development & Engineering,0.2975555555555556,0.0,0.0,0.7024444444444444
+51,AI & Machine Learning Engineering,Software Development & Engineering,0.1347777777777778,0.0,0.0033333333333333335,0.8618888888888889
+52,Software Development & Engineering,Software Development & Engineering,0.0,0.04356199247375718,0.0,0.9564380075262428
+53,Software Development & Engineering,AI & Machine Learning Engineering,0.8977777777777779,0.0,0.0033333333333333335,0.09888888888888889
+54,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.89,0.0,0.04,0.07
+55,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.8354444444444445,0.0,0.0,0.16455555555555557
+56,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9233333333333333,0.0,0.013333333333333334,0.06333333333333334
+57,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.7116666666666667,0.0,0.0,0.28833333333333333
+58,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.8636111111111112,0.0,0.0033333333333333335,0.13305555555555557
+59,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.8719739261999317,0.0,0.12802607380006764
+60,Software Development & Engineering,AI & Machine Learning Engineering,0.793154761904762,0.0,0.0,0.2068452380952382
+61,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.03,0.0,0.96,0.01
+62,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9066666666666666,0.0,0.0,0.09333333333333335
+63,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.02666666666666667,0.0,0.97,0.0033333333333333335
+64,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.016,0.0,0.9766666666666667,0.007333333333333334
+65,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.8787777777777778,0.0,0.05333333333333334,0.06788888888888889
+66,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9633333333333334,0.0,0.02666666666666667,0.01
+67,Software Development & Engineering,Software Development & Engineering,0.0,0.038914844142785315,0.0,0.9610851558572145
+68,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.8337531186762908,0.0,0.16624688132370866
+69,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.016666666666666666,0.0,0.98,0.0033333333333333335
+70,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9066666666666666,0.0,0.06333333333333334,0.03
+71,Software Development & Engineering,Software Development & Engineering,0.05377777777777778,0.013333333333333334,0.03333333333333333,0.8995555555555556
+72,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.0033333333333333335,0.0,0.9966666666666667,0.0
+73,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.01,0.0,0.9866666666666667,0.0033333333333333335
+74,Software Development & Engineering,Software Development & Engineering,0.13611111111111113,0.0,0.24666666666666667,0.6172222222222223
+75,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.0033333333333333335,0.0,0.99,0.006666666666666667
+76,"Cloud, DevOps & Systems Engineering","Cloud, DevOps & Systems Engineering",0.0,0.6922383778502191,0.0,0.30776162214978037
+77,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.8658888888888888,0.0,0.0,0.13411111111111113
+78,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.5564986772486772,0.0,0.0,0.44350132275132287
+79,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.016666666666666666,0.0,0.98,0.0033333333333333335
+80,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.006666666666666667,0.0,0.99,0.0033333333333333335
+81,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.006666666666666667,0.0,0.9866666666666667,0.006666666666666667
+82,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.006666666666666667,0.0,0.99,0.0033333333333333335
+83,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.8772222222222221,0.0,0.0033333333333333335,0.11944444444444442
+84,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.9280011268143621,0.0,0.07199887318563786
+85,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.945,0.0033333333333333335,0.006666666666666667,0.045
+86,AI & Machine Learning Engineering,Software Development & Engineering,0.3919523809523809,0.0,0.0,0.6080476190476187
+87,"Cloud, DevOps & Systems Engineering","Cloud, DevOps & Systems Engineering",0.0,0.7497259869759869,0.0,0.25027401302401325
+88,Software Development & Engineering,Software Development & Engineering,0.06666666666666667,0.002380952380952381,0.02666666666666667,0.9042857142857142
+89,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.03266666666666667,0.0,0.9566666666666667,0.010666666666666668
+90,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9586111111111112,0.002857142857142857,0.02666666666666667,0.011865079365079365
+91,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.03,0.0,0.9633333333333334,0.006666666666666667
+92,"Cloud, DevOps & Systems Engineering","Cloud, DevOps & Systems Engineering",0.0,0.7577235060261378,0.0,0.24227649397386283
+93,Software Development & Engineering,Software Development & Engineering,0.0,0.33121622359122355,0.0,0.6687837764087766
+94,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.018888888888888886,0.0,0.9666666666666667,0.014444444444444444
+95,AI & Machine Learning Engineering,Software Development & Engineering,0.4029444444444443,0.0,0.0,0.5970555555555557
+96,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.0,0.0,0.9966666666666667,0.0033333333333333335
+97,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.8940722749472754,0.0,0.10592772505272498
+98,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.8523333333333333,0.0,0.0,0.14766666666666667
+99,Software Development & Engineering,Software Development & Engineering,0.0,0.02835016835016835,0.0,0.9716498316498318
+100,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.8719739261999317,0.0,0.12802607380006764
+101,AI & Machine Learning Engineering,Software Development & Engineering,0.3919523809523809,0.0,0.0,0.6080476190476187
+102,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9044444444444444,0.006666666666666667,0.0033333333333333335,0.08555555555555557
+103,Software Development & Engineering,AI & Machine Learning Engineering,0.5670634920634918,0.0,0.0,0.43293650793650795
+104,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.015555555555555557,0.0,0.9466666666666667,0.03777777777777778
+105,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.006666666666666667,0.0,0.9866666666666667,0.006666666666666667
+106,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.6603650793650794,0.0025,0.006666666666666667,0.330468253968254
+107,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.728404761904762,0.0,0.0,0.2715952380952381
+108,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.98,0.0,0.0033333333333333335,0.016666666666666666
+109,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.01,0.0,0.9866666666666667,0.0033333333333333335
+110,AI & Machine Learning Engineering,Software Development & Engineering,0.1347777777777778,0.0,0.0033333333333333335,0.8618888888888889
+111,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.8133333333333334,0.0,0.0,0.18666666666666668
+112,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.8487777777777779,0.0,0.06,0.09122222222222222
+113,Software Development & Engineering,AI & Machine Learning Engineering,0.91,0.0,0.0033333333333333335,0.08666666666666667
+114,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9573333333333335,0.0,0.0,0.042666666666666665
+115,"Cloud, DevOps & Systems Engineering","Cloud, DevOps & Systems Engineering",0.0,0.7405831290169522,0.0,0.25941687098304766
+116,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.03666666666666667,0.0022916666666666667,0.9366666666666666,0.024375
+117,"Cloud, DevOps & Systems Engineering","Cloud, DevOps & Systems Engineering",0.0,0.7488942677692674,0.0,0.2511057322307324
+118,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.02,0.0,0.9433333333333334,0.03666666666666667
+119,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.8305555555555554,0.0,0.0,0.16944444444444445
+120,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.02666666666666667,0.0,0.9733333333333334,0.0
+121,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.8094444444444444,0.0,0.0,0.19055555555555556
+122,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.5927386779886779,0.0,0.4072613220113219
+123,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.03,0.0,0.97,0.0
+124,Software Development & Engineering,Software Development & Engineering,0.016999999999999998,0.0,0.09,0.8929999999999999
+125,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9374285714285713,0.0,0.0,0.06257142857142857
+126,AI & Machine Learning Engineering,Software Development & Engineering,0.24333333333333335,0.0,0.0,0.7566666666666667
+127,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.7577235060261378,0.0,0.24227649397386283
+128,AI & Machine Learning Engineering,Software Development & Engineering,0.4029444444444443,0.0,0.0,0.5970555555555557
+129,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.006666666666666667,0.0,0.99,0.0033333333333333335
+130,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.7979444444444445,0.0,0.0,0.20205555555555557
+131,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.8164325396825397,0.0,0.006666666666666667,0.17690079365079361
+132,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.011111111111111112,0.0,0.9833333333333333,0.005555555555555555
+133,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.0033333333333333335,0.0,0.9933333333333333,0.0033333333333333335
+134,Software Development & Engineering,AI & Machine Learning Engineering,0.781825396825397,0.0,0.0,0.21817460317460316
+135,Software Development & Engineering,Software Development & Engineering,0.11666666666666667,0.00488888888888889,0.013333333333333334,0.865111111111111
+136,Software Development & Engineering,Software Development & Engineering,0.0,0.015809523809523808,0.0,0.9841904761904762
+137,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.8163542568542569,0.0,0.18364574314574317
+138,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.7009359066859064,0.0,0.2990640933140935
+139,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.8126495048925385,0.0,0.1873504951074613
+140,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9166666666666666,0.0,0.043333333333333335,0.04
+141,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.9856415343915346,0.0,0.014358465608465607
+142,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.8433333333333334,0.0,0.0033333333333333335,0.15333333333333332
+143,"Cloud, DevOps & Systems Engineering","Cloud, DevOps & Systems Engineering",0.0,0.5930860528360529,0.0,0.4069139471639473
+144,Software Development & Engineering,Software Development & Engineering,0.0033333333333333335,0.16333455141349873,0.0033333333333333335,0.8299987819198346
+145,Software Development & Engineering,Software Development & Engineering,0.09961111111111112,0.0,0.013333333333333334,0.8870555555555556
+146,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.023333333333333334,0.0,0.9733333333333334,0.0033333333333333335
+147,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.8288905723905725,0.0,0.17110942760942774
+148,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.7462531950620185,0.0,0.2537468049379817
+149,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.0,0.0,1.0,0.0
+150,Software Development & Engineering,AI & Machine Learning Engineering,0.7473478835978836,0.0,0.0,0.2526521164021165
+151,Software Development & Engineering,Software Development & Engineering,0.0,0.04356199247375718,0.0,0.9564380075262428
+152,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.0,0.0,1.0,0.0
+153,Software Development & Engineering,Software Development & Engineering,0.023333333333333334,0.00977777777777778,0.0033333333333333335,0.9635555555555555
+154,Software Development & Engineering,AI & Machine Learning Engineering,0.6665555555555558,0.0,0.0033333333333333335,0.33011111111111113
+155,"Cloud, DevOps & Systems Engineering","Cloud, DevOps & Systems Engineering",0.0,0.6787886400092277,0.0,0.32121135999077194
+156,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.02,0.0,0.9666666666666667,0.013333333333333334
+157,Software Development & Engineering,Software Development & Engineering,0.07833333333333334,0.0,0.0,0.9216666666666666
+158,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.0,0.0,1.0,0.0
+159,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.8297777777777777,0.0,0.0,0.1702222222222222
+160,Software Development & Engineering,Software Development & Engineering,0.06433333333333334,0.0,0.17333333333333334,0.7623333333333333
+161,Software Development & Engineering,Software Development & Engineering,0.0,0.03761073546909461,0.0,0.9623892645309055
+162,Software Development & Engineering,AI & Machine Learning Engineering,0.7116666666666667,0.0,0.0,0.28833333333333333
+163,Software Development & Engineering,Software Development & Engineering,0.3136111111111111,0.0,0.013333333333333334,0.6730555555555556
+164,Software Development & Engineering,AI & Machine Learning Engineering,0.9127777777777777,0.0,0.0,0.08722222222222221
+165,Software Development & Engineering,AI & Machine Learning Engineering,0.8977777777777779,0.0,0.0033333333333333335,0.09888888888888889
+166,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.6138148148148148,0.0030555555555555553,0.0033333333333333335,0.3797962962962963
+167,Software Development & Engineering,AI & Machine Learning Engineering,0.5293888888888888,0.0,0.0,0.4706111111111112
+168,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.97,0.002666666666666667,0.006666666666666667,0.020666666666666667
+169,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.7497259869759869,0.0,0.25027401302401325
+170,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9366666666666666,0.0,0.0033333333333333335,0.06
+171,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.5927386779886779,0.0,0.4072613220113219
+172,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.6960145502645502,0.0,0.0,0.3039854497354497
+173,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.022222222222222223,0.0,0.9433333333333334,0.034444444444444444
+174,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.5842222222222223,0.0,0.013333333333333334,0.40244444444444444
+175,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.0033333333333333335,0.0,0.99,0.006666666666666667
+176,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.023333333333333334,0.0,0.9766666666666667,0.0
+177,Software Development & Engineering,"Cloud, DevOps & Systems Engineering",0.0,0.5282058682058685,0.0,0.4717941317941321
+178,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.8933333333333333,0.0025925925925925925,0.023333333333333334,0.08074074074074074
+179,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.043333333333333335,0.0,0.9533333333333334,0.0033333333333333335
+180,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9411111111111112,0.0,0.05,0.008888888888888889
+181,Software Development & Engineering,Software Development & Engineering,0.04777777777777778,0.004518518518518519,0.0033333333333333335,0.9443703703703704
+182,Software Development & Engineering,AI & Machine Learning Engineering,0.7363333333333333,0.0,0.006666666666666667,0.257
+183,Software Development & Engineering,AI & Machine Learning Engineering,0.8305555555555554,0.0,0.0,0.16944444444444445
+184,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.89,0.0,0.10333333333333333,0.006666666666666667
+185,Software Development & Engineering,Software Development & Engineering,0.3352777777777778,0.0,0.006666666666666667,0.6580555555555556
+186,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.023333333333333334,0.0,0.97,0.006666666666666667
+187,Data Analytics & Business Intelligence,Data Analytics & Business Intelligence,0.0033333333333333335,0.0,0.9966666666666667,0.0
+188,AI & Machine Learning Engineering,AI & Machine Learning Engineering,0.9833333333333333,0.0,0.006666666666666667,0.01
+189,Software Development & Engineering,Software Development & Engineering,0.26666666666666666,0.0,0.056666666666666664,0.6766666666666666
+190,Software Development & Engineering,Software Development & Engineering,0.05766666666666667,0.0,0.15666666666666668,0.7856666666666666
+191,Software Development & Engineering,AI & Machine Learning Engineering,0.6616666666666666,0.0,0.0,0.33833333333333326

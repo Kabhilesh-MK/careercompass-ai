@@ -1,0 +1,242 @@
+Education_Level,Specialization,Skills,Interests,Recommended_Career,canonical_career_track
+BCA,Computer Applications,"Python, Web Development, Databases",Social Work,System Analyst,"Cloud, DevOps & Systems Engineering"
+BCA,Computer Applications,"Python, Web Development, Databases",Technology,System Analyst,"Cloud, DevOps & Systems Engineering"
+BBA,Management,"Team Management, Excel",Management,Business Analyst,Data Analytics & Business Intelligence
+MCA,Information Systems,"Programming, AI, Cloud",Creativity,Data Scientist,AI & Machine Learning Engineering
+M.Tech,Structural Engineering,"Power Analysis, Python",Creativity,AI Engineer,AI & Machine Learning Engineering
+B.Sc,Physics,Critical Thinking,Healthcare,Data Analyst,Data Analytics & Business Intelligence
+MCA,Information Systems,"Database Design, Python",Creativity,Software Architect,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Teaching,Software Developer,Software Development & Engineering
+MCA,Computer Science,"Programming, AI, Cloud",Research,Data Scientist,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Teaching,Web Developer,Software Development & Engineering
+B.Sc,Biology,"Research, Lab Work",Design,Data Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Design,System Analyst,"Cloud, DevOps & Systems Engineering"
+M.Tech,Electronics,"Power Analysis, Python",Business,AI Engineer,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Teaching,Software Developer,Software Development & Engineering
+M.Tech,Structural Engineering,"AI, Simulation, MATLAB",Technology,AI Engineer,AI & Machine Learning Engineering
+BBA,Finance,"Sales, Negotiation",Research,Business Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Teaching,Web Developer,Software Development & Engineering
+MCA,Information Systems,"Database Design, Python",Helping People,AI Engineer,AI & Machine Learning Engineering
+M.Tech,Structural Engineering,"Power Analysis, Python",Management,AI Engineer,AI & Machine Learning Engineering
+MCA,Information Systems,"Programming, AI, Cloud",Management,Data Scientist,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Management,Software Developer,Software Development & Engineering
+BBA,Management,"Sales, Negotiation",Creativity,Business Analyst,Data Analytics & Business Intelligence
+MCA,Information Systems,"Programming, AI, Cloud",Research,Software Architect,Software Development & Engineering
+M.Tech,Structural Engineering,Design Optimization,Management,AI Engineer,AI & Machine Learning Engineering
+MCA,Computer Science,"Database Design, Python",Healthcare,Software Architect,Software Development & Engineering
+MCA,Information Systems,"Database Design, Python",Healthcare,Data Scientist,AI & Machine Learning Engineering
+BBA,Finance,"Team Management, Excel",Creativity,Business Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Design,Web Developer,Software Development & Engineering
+M.Tech,Electronics,Design Optimization,Creativity,AI Engineer,AI & Machine Learning Engineering
+MCA,Information Systems,"Programming, AI, Cloud",Business,AI Engineer,AI & Machine Learning Engineering
+MCA,Information Systems,"Programming, AI, Cloud",Helping People,Data Scientist,AI & Machine Learning Engineering
+MCA,Information Systems,"Programming, AI, Cloud",Creativity,Data Scientist,AI & Machine Learning Engineering
+MCA,Information Systems,"Programming, AI, Cloud",Healthcare,Data Scientist,AI & Machine Learning Engineering
+MCA,Information Systems,"Database Design, Python",Business,Data Scientist,AI & Machine Learning Engineering
+MCA,Computer Science,"Database Design, Python",Teaching,AI Engineer,AI & Machine Learning Engineering
+B.Sc,Biology,"Research, Lab Work",Business,Data Analyst,Data Analytics & Business Intelligence
+BBA,Finance,"Team Management, Excel",Healthcare,Business Analyst,Data Analytics & Business Intelligence
+M.Tech,Power Systems,"Power Analysis, Python",Technology,AI Engineer,AI & Machine Learning Engineering
+MCA,Information Systems,"Database Design, Python",Creativity,AI Engineer,AI & Machine Learning Engineering
+B.Tech,Mechanical,"Python, MATLAB, CAD",Social Work,Software Engineer,Software Development & Engineering
+B.Sc,Mathematics,"Observation, Recording",Research,Data Analyst,Data Analytics & Business Intelligence
+M.Tech,Structural Engineering,"Power Analysis, Python",Research,AI Engineer,AI & Machine Learning Engineering
+MCA,Information Systems,"Database Design, Python",Social Work,Data Scientist,AI & Machine Learning Engineering
+BBA,Management,"Team Management, Excel",Design,Business Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Technology,Software Developer,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Research,System Analyst,"Cloud, DevOps & Systems Engineering"
+B.Sc,Mathematics,"Data Analysis, Experimentation",Teaching,Data Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Design,System Analyst,"Cloud, DevOps & Systems Engineering"
+MCA,Information Systems,"Programming, AI, Cloud",Management,Software Architect,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Technology,Web Developer,Software Development & Engineering
+B.Sc,Physics,"Observation, Recording",Management,Data Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Design,Software Developer,Software Development & Engineering
+MCA,Information Systems,"Programming, AI, Cloud",Design,Data Scientist,AI & Machine Learning Engineering
+MCA,Computer Science,"Programming, AI, Cloud",Teaching,Data Scientist,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Research,Web Developer,Software Development & Engineering
+BBA,Finance,Communication,Design,Business Analyst,Data Analytics & Business Intelligence
+MCA,Information Systems,"Programming, AI, Cloud",Business,Data Scientist,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Design,System Analyst,"Cloud, DevOps & Systems Engineering"
+BBA,Management,"Team Management, Excel",Technology,Business Analyst,Data Analytics & Business Intelligence
+BBA,Marketing,"Sales, Negotiation",Business,Business Analyst,Data Analytics & Business Intelligence
+MCA,Information Systems,"Programming, AI, Cloud",Social Work,Data Scientist,AI & Machine Learning Engineering
+MCA,Information Systems,"Database Design, Python",Business,Software Architect,Software Development & Engineering
+MCA,Computer Science,"Database Design, Python",Healthcare,AI Engineer,AI & Machine Learning Engineering
+MCA,Computer Science,"Programming, AI, Cloud",Design,Software Architect,Software Development & Engineering
+B.Sc,Biology,"Research, Lab Work",Helping People,Data Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Social Work,System Analyst,"Cloud, DevOps & Systems Engineering"
+MCA,Computer Science,"Database Design, Python",Helping People,Data Scientist,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Business,System Analyst,"Cloud, DevOps & Systems Engineering"
+BCA,Computer Applications,"Python, Web Development, Databases",Healthcare,Web Developer,Software Development & Engineering
+M.Tech,Structural Engineering,Design Optimization,Helping People,AI Engineer,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Business,Web Developer,Software Development & Engineering
+B.Sc,Chemistry,"Data Analysis, Experimentation",Social Work,Data Analyst,Data Analytics & Business Intelligence
+B.Sc,Mathematics,"Observation, Recording",Management,Data Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Helping People,System Analyst,"Cloud, DevOps & Systems Engineering"
+BBA,Finance,Communication,Creativity,Business Analyst,Data Analytics & Business Intelligence
+B.Sc,Mathematics,"Observation, Recording",Design,Data Analyst,Data Analytics & Business Intelligence
+MCA,Information Systems,"Programming, AI, Cloud",Design,Data Scientist,AI & Machine Learning Engineering
+BBA,Marketing,"Team Management, Excel",Business,Business Analyst,Data Analytics & Business Intelligence
+MCA,Computer Science,"Database Design, Python",Management,Data Scientist,AI & Machine Learning Engineering
+B.Sc,Chemistry,"Observation, Recording",Technology,Data Analyst,Data Analytics & Business Intelligence
+MCA,Computer Science,"Database Design, Python",Creativity,Software Architect,Software Development & Engineering
+M.Tech,Structural Engineering,"AI, Simulation, MATLAB",Teaching,AI Engineer,AI & Machine Learning Engineering
+MCA,Information Systems,"Database Design, Python",Helping People,Software Architect,Software Development & Engineering
+B.Tech,Mechanical,"Python, MATLAB, CAD",Management,Software Engineer,Software Development & Engineering
+MCA,Information Systems,"Database Design, Python",Creativity,AI Engineer,AI & Machine Learning Engineering
+B.Tech,Electrical,"PLC, PSCAD, Design",Management,Software Engineer,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Business,Web Developer,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Design,Web Developer,Software Development & Engineering
+MCA,Information Systems,"Database Design, Python",Creativity,AI Engineer,AI & Machine Learning Engineering
+MCA,Computer Science,"Database Design, Python",Management,Software Architect,Software Development & Engineering
+B.Sc,Chemistry,"Data Analysis, Experimentation",Social Work,Data Analyst,Data Analytics & Business Intelligence
+MCA,Computer Science,"Database Design, Python",Social Work,Software Architect,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Healthcare,Software Developer,Software Development & Engineering
+B.Sc,Mathematics,Critical Thinking,Design,Data Analyst,Data Analytics & Business Intelligence
+MCA,Information Systems,"Programming, AI, Cloud",Research,AI Engineer,AI & Machine Learning Engineering
+M.Tech,Electronics,"AI, Simulation, MATLAB",Research,AI Engineer,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Research,System Analyst,"Cloud, DevOps & Systems Engineering"
+BCA,Computer Applications,"Python, Web Development, Databases",Helping People,Software Developer,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Helping People,Web Developer,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Technology,System Analyst,"Cloud, DevOps & Systems Engineering"
+BCA,Computer Applications,"Python, Web Development, Databases",Teaching,Software Developer,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Healthcare,System Analyst,"Cloud, DevOps & Systems Engineering"
+BBA,Marketing,"Sales, Negotiation",Business,Business Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Helping People,Software Developer,Software Development & Engineering
+B.Sc,Physics,"Data Analysis, Experimentation",Research,Data Analyst,Data Analytics & Business Intelligence
+MCA,Computer Science,"Database Design, Python",Creativity,Software Architect,Software Development & Engineering
+MCA,Information Systems,"Database Design, Python",Management,AI Engineer,AI & Machine Learning Engineering
+MCA,Information Systems,"Programming, AI, Cloud",Healthcare,Software Architect,Software Development & Engineering
+MCA,Information Systems,"Programming, AI, Cloud",Helping People,Software Architect,Software Development & Engineering
+B.Tech,Electrical,"PLC, PSCAD, Design",Technology,Software Engineer,Software Development & Engineering
+M.Tech,Computer Science,Design Optimization,Social Work,AI Engineer,AI & Machine Learning Engineering
+MCA,Computer Science,"Programming, AI, Cloud",Design,Data Scientist,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Creativity,Web Developer,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Social Work,Web Developer,Software Development & Engineering
+B.Sc,Biology,"Observation, Recording",Business,Data Analyst,Data Analytics & Business Intelligence
+B.Sc,Biology,"Research, Lab Work",Teaching,Data Analyst,Data Analytics & Business Intelligence
+M.Tech,Electronics,Design Optimization,Creativity,AI Engineer,AI & Machine Learning Engineering
+B.Sc,Mathematics,"Research, Lab Work",Healthcare,Data Analyst,Data Analytics & Business Intelligence
+MCA,Computer Science,"Database Design, Python",Teaching,Data Scientist,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Social Work,System Analyst,"Cloud, DevOps & Systems Engineering"
+B.Sc,Biology,"Data Analysis, Experimentation",Technology,Data Analyst,Data Analytics & Business Intelligence
+MCA,Information Systems,"Database Design, Python",Research,AI Engineer,AI & Machine Learning Engineering
+B.Tech,Electrical,"Machine Learning, AutoCAD",Business,Software Engineer,Software Development & Engineering
+BBA,Marketing,"Team Management, Excel",Helping People,Business Analyst,Data Analytics & Business Intelligence
+B.Sc,Mathematics,Critical Thinking,Teaching,Data Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Social Work,System Analyst,"Cloud, DevOps & Systems Engineering"
+MCA,Computer Science,"Programming, AI, Cloud",Social Work,Software Architect,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Research,Web Developer,Software Development & Engineering
+BBA,Marketing,"Team Management, Excel",Management,Business Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Research,Software Developer,Software Development & Engineering
+BBA,Finance,Communication,Business,Business Analyst,Data Analytics & Business Intelligence
+B.Sc,Mathematics,"Data Analysis, Experimentation",Healthcare,Data Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Social Work,Software Developer,Software Development & Engineering
+BBA,Management,Communication,Social Work,Business Analyst,Data Analytics & Business Intelligence
+B.Sc,Physics,Critical Thinking,Helping People,Data Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Technology,System Analyst,"Cloud, DevOps & Systems Engineering"
+MCA,Information Systems,"Database Design, Python",Business,AI Engineer,AI & Machine Learning Engineering
+B.Sc,Physics,Critical Thinking,Technology,Data Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Teaching,Software Developer,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Technology,Web Developer,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Research,System Analyst,"Cloud, DevOps & Systems Engineering"
+MCA,Computer Science,"Database Design, Python",Research,Software Architect,Software Development & Engineering
+MCA,Information Systems,"Programming, AI, Cloud",Social Work,Software Architect,Software Development & Engineering
+B.Tech,Electronics,"Python, MATLAB, CAD",Management,Software Engineer,Software Development & Engineering
+BBA,Finance,Communication,Management,Business Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Helping People,Software Developer,Software Development & Engineering
+B.Sc,Mathematics,"Research, Lab Work",Technology,Data Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Management,Software Developer,Software Development & Engineering
+B.Sc,Mathematics,"Research, Lab Work",Healthcare,Data Analyst,Data Analytics & Business Intelligence
+BBA,Finance,Communication,Helping People,Business Analyst,Data Analytics & Business Intelligence
+M.Tech,Power Systems,"Power Analysis, Python",Creativity,AI Engineer,AI & Machine Learning Engineering
+B.Tech,Computer Science,"Python, MATLAB, CAD",Creativity,Software Engineer,Software Development & Engineering
+MCA,Computer Science,"Database Design, Python",Technology,Data Scientist,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Helping People,Web Developer,Software Development & Engineering
+MCA,Computer Science,"Database Design, Python",Helping People,AI Engineer,AI & Machine Learning Engineering
+MCA,Computer Science,"Database Design, Python",Research,Data Scientist,AI & Machine Learning Engineering
+B.Tech,Computer Science,"Python, MATLAB, CAD",Business,Software Engineer,Software Development & Engineering
+B.Tech,Computer Science,"Python, MATLAB, CAD",Social Work,Software Engineer,Software Development & Engineering
+MCA,Information Systems,"Programming, AI, Cloud",Teaching,Software Architect,Software Development & Engineering
+MCA,Information Systems,"Programming, AI, Cloud",Research,Software Architect,Software Development & Engineering
+BBA,Management,Communication,Healthcare,Business Analyst,Data Analytics & Business Intelligence
+M.Tech,Computer Science,Design Optimization,Business,AI Engineer,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Research,Web Developer,Software Development & Engineering
+MCA,Computer Science,"Programming, AI, Cloud",Management,Software Architect,Software Development & Engineering
+MCA,Information Systems,"Database Design, Python",Helping People,Data Scientist,AI & Machine Learning Engineering
+MCA,Information Systems,"Programming, AI, Cloud",Management,Data Scientist,AI & Machine Learning Engineering
+M.Tech,Power Systems,"Power Analysis, Python",Design,AI Engineer,AI & Machine Learning Engineering
+MCA,Information Systems,"Database Design, Python",Social Work,AI Engineer,AI & Machine Learning Engineering
+B.Sc,Chemistry,"Data Analysis, Experimentation",Teaching,Data Analyst,Data Analytics & Business Intelligence
+B.Tech,Electronics,"Python, MATLAB, CAD",Helping People,Software Engineer,Software Development & Engineering
+MCA,Information Systems,"Programming, AI, Cloud",Teaching,AI Engineer,AI & Machine Learning Engineering
+M.Tech,Structural Engineering,"AI, Simulation, MATLAB",Social Work,AI Engineer,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Design,System Analyst,"Cloud, DevOps & Systems Engineering"
+MCA,Computer Science,"Programming, AI, Cloud",Social Work,AI Engineer,AI & Machine Learning Engineering
+M.Tech,Structural Engineering,"AI, Simulation, MATLAB",Business,AI Engineer,AI & Machine Learning Engineering
+BBA,Marketing,Communication,Business,Business Analyst,Data Analytics & Business Intelligence
+M.Tech,Computer Science,Design Optimization,Business,AI Engineer,AI & Machine Learning Engineering
+B.Sc,Mathematics,Critical Thinking,Management,Data Analyst,Data Analytics & Business Intelligence
+MCA,Information Systems,"Database Design, Python",Helping People,Software Architect,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Management,System Analyst,"Cloud, DevOps & Systems Engineering"
+BCA,Computer Applications,"Python, Web Development, Databases",Social Work,Web Developer,Software Development & Engineering
+MCA,Information Systems,"Programming, AI, Cloud",Technology,Software Architect,Software Development & Engineering
+MCA,Information Systems,"Database Design, Python",Business,Software Architect,Software Development & Engineering
+MCA,Computer Science,"Programming, AI, Cloud",Technology,Software Architect,Software Development & Engineering
+MCA,Computer Science,"Database Design, Python",Social Work,Software Architect,Software Development & Engineering
+M.Tech,Computer Science,"AI, Simulation, MATLAB",Business,AI Engineer,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Teaching,Software Developer,Software Development & Engineering
+M.Tech,Computer Science,Design Optimization,Business,AI Engineer,AI & Machine Learning Engineering
+MCA,Information Systems,"Database Design, Python",Business,Data Scientist,AI & Machine Learning Engineering
+M.Tech,Power Systems,"AI, Simulation, MATLAB",Healthcare,AI Engineer,AI & Machine Learning Engineering
+B.Sc,Physics,"Research, Lab Work",Research,Data Analyst,Data Analytics & Business Intelligence
+B.Sc,Mathematics,"Research, Lab Work",Business,Data Analyst,Data Analytics & Business Intelligence
+M.Tech,Structural Engineering,"Power Analysis, Python",Business,AI Engineer,AI & Machine Learning Engineering
+B.Sc,Chemistry,Critical Thinking,Business,Data Analyst,Data Analytics & Business Intelligence
+B.Sc,Biology,"Research, Lab Work",Technology,Data Analyst,Data Analytics & Business Intelligence
+MCA,Computer Science,"Programming, AI, Cloud",Technology,Software Architect,Software Development & Engineering
+B.Tech,Mechanical,"Machine Learning, AutoCAD",Research,Software Engineer,Software Development & Engineering
+MCA,Computer Science,"Database Design, Python",Design,AI Engineer,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Helping People,Software Developer,Software Development & Engineering
+BBA,Management,"Sales, Negotiation",Helping People,Business Analyst,Data Analytics & Business Intelligence
+MCA,Computer Science,"Database Design, Python",Business,AI Engineer,AI & Machine Learning Engineering
+MCA,Information Systems,"Programming, AI, Cloud",Research,AI Engineer,AI & Machine Learning Engineering
+B.Sc,Mathematics,"Research, Lab Work",Business,Data Analyst,Data Analytics & Business Intelligence
+M.Tech,Computer Science,Design Optimization,Healthcare,AI Engineer,AI & Machine Learning Engineering
+B.Sc,Biology,"Observation, Recording",Research,Data Analyst,Data Analytics & Business Intelligence
+M.Tech,Computer Science,"Power Analysis, Python",Research,AI Engineer,AI & Machine Learning Engineering
+MCA,Information Systems,"Database Design, Python",Helping People,Software Architect,Software Development & Engineering
+B.Tech,Mechanical,"PLC, PSCAD, Design",Technology,Software Engineer,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Design,Software Developer,Software Development & Engineering
+B.Sc,Biology,"Observation, Recording",Design,Data Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Management,Software Developer,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Research,System Analyst,"Cloud, DevOps & Systems Engineering"
+BBA,Management,"Sales, Negotiation",Creativity,Business Analyst,Data Analytics & Business Intelligence
+M.Tech,Power Systems,Design Optimization,Management,AI Engineer,AI & Machine Learning Engineering
+B.Sc,Biology,Critical Thinking,Design,Data Analyst,Data Analytics & Business Intelligence
+B.Tech,Computer Science,"PLC, PSCAD, Design",Teaching,Software Engineer,Software Development & Engineering
+M.Tech,Power Systems,Design Optimization,Design,AI Engineer,AI & Machine Learning Engineering
+BBA,Management,"Sales, Negotiation",Management,Business Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Design,Web Developer,Software Development & Engineering
+MCA,Computer Science,"Programming, AI, Cloud",Teaching,Data Scientist,AI & Machine Learning Engineering
+BBA,Management,"Sales, Negotiation",Business,Business Analyst,Data Analytics & Business Intelligence
+BCA,Computer Applications,"Python, Web Development, Databases",Design,Software Developer,Software Development & Engineering
+MCA,Information Systems,"Database Design, Python",Helping People,AI Engineer,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Research,Web Developer,Software Development & Engineering
+MCA,Computer Science,"Database Design, Python",Creativity,AI Engineer,AI & Machine Learning Engineering
+B.Tech,Electronics,"Python, MATLAB, CAD",Teaching,Software Engineer,Software Development & Engineering
+MCA,Computer Science,"Programming, AI, Cloud",Research,Software Architect,Software Development & Engineering
+BBA,Finance,"Sales, Negotiation",Design,Business Analyst,Data Analytics & Business Intelligence
+MCA,Information Systems,"Programming, AI, Cloud",Design,Data Scientist,AI & Machine Learning Engineering
+B.Tech,Computer Science,"PLC, PSCAD, Design",Teaching,Software Engineer,Software Development & Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Business,Software Developer,Software Development & Engineering
+B.Sc,Biology,Critical Thinking,Social Work,Data Analyst,Data Analytics & Business Intelligence
+MCA,Computer Science,"Database Design, Python",Technology,Data Scientist,AI & Machine Learning Engineering
+M.Tech,Structural Engineering,"AI, Simulation, MATLAB",Technology,AI Engineer,AI & Machine Learning Engineering
+BCA,Computer Applications,"Python, Web Development, Databases",Teaching,Software Developer,Software Development & Engineering
+MCA,Computer Science,"Programming, AI, Cloud",Social Work,Software Architect,Software Development & Engineering
+M.Tech,Power Systems,"AI, Simulation, MATLAB",Research,AI Engineer,AI & Machine Learning Engineering
+B.Tech,Computer Science,"Python, MATLAB, CAD",Social Work,Software Engineer,Software Development & Engineering
+MCA,Computer Science,"Programming, AI, Cloud",Teaching,AI Engineer,AI & Machine Learning Engineering
+BBA,Finance,Communication,Research,Business Analyst,Data Analytics & Business Intelligence
+BBA,Marketing,Communication,Teaching,Business Analyst,Data Analytics & Business Intelligence

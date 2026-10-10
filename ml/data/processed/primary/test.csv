@@ -1,0 +1,50 @@
+original_row_id,Education_Level,Specialization,Skills,Interests,Recommended_Career,canonical_career_track
+8,MCA,Computer Science,"Programming, AI, Cloud",Research,Data Scientist,AI & Machine Learning Engineering
+170,MCA,Information Systems,"Programming, AI, Cloud",Teaching,AI Engineer,AI & Machine Learning Engineering
+42,MCA,Information Systems,"Database Design, Python",Social Work,Data Scientist,AI & Machine Learning Engineering
+119,BCA,Computer Applications,"Python, Web Development, Databases",Social Work,System Analyst,"Cloud, DevOps & Systems Engineering"
+4,M.Tech,Structural Engineering,"Power Analysis, Python",Creativity,AI Engineer,AI & Machine Learning Engineering
+215,B.Tech,Computer Science,"PLC, PSCAD, Design",Teaching,Software Engineer,Software Development & Engineering
+138,BCA,Computer Applications,"Python, Web Development, Databases",Teaching,Software Developer,Software Development & Engineering
+223,BCA,Computer Applications,"Python, Web Development, Databases",Research,Web Developer,Software Development & Engineering
+135,BCA,Computer Applications,"Python, Web Development, Databases",Technology,System Analyst,"Cloud, DevOps & Systems Engineering"
+140,BCA,Computer Applications,"Python, Web Development, Databases",Research,System Analyst,"Cloud, DevOps & Systems Engineering"
+9,BCA,Computer Applications,"Python, Web Development, Databases",Teaching,Web Developer,Software Development & Engineering
+225,B.Tech,Electronics,"Python, MATLAB, CAD",Teaching,Software Engineer,Software Development & Engineering
+40,B.Sc,Mathematics,"Observation, Recording",Research,Data Analyst,Data Analytics & Business Intelligence
+228,MCA,Information Systems,"Programming, AI, Cloud",Design,Data Scientist,AI & Machine Learning Engineering
+91,MCA,Computer Science,"Database Design, Python",Social Work,Software Architect,Software Development & Engineering
+52,MCA,Information Systems,"Programming, AI, Cloud",Design,Data Scientist,AI & Machine Learning Engineering
+71,B.Sc,Chemistry,"Data Analysis, Experimentation",Social Work,Data Analyst,Data Analytics & Business Intelligence
+144,BBA,Finance,Communication,Management,Business Analyst,Data Analytics & Business Intelligence
+189,M.Tech,Power Systems,"AI, Simulation, MATLAB",Healthcare,AI Engineer,AI & Machine Learning Engineering
+128,BBA,Marketing,"Team Management, Excel",Management,Business Analyst,Data Analytics & Business Intelligence
+149,BBA,Finance,Communication,Helping People,Business Analyst,Data Analytics & Business Intelligence
+6,MCA,Information Systems,"Database Design, Python",Creativity,Software Architect,Software Development & Engineering
+56,MCA,Information Systems,"Programming, AI, Cloud",Business,Data Scientist,AI & Machine Learning Engineering
+148,B.Sc,Mathematics,"Research, Lab Work",Healthcare,Data Analyst,Data Analytics & Business Intelligence
+27,BCA,Computer Applications,"Python, Web Development, Databases",Design,Web Developer,Software Development & Engineering
+233,M.Tech,Structural Engineering,"AI, Simulation, MATLAB",Technology,AI Engineer,AI & Machine Learning Engineering
+111,MCA,Computer Science,"Programming, AI, Cloud",Design,Data Scientist,AI & Machine Learning Engineering
+171,M.Tech,Structural Engineering,"AI, Simulation, MATLAB",Social Work,AI Engineer,AI & Machine Learning Engineering
+35,B.Sc,Biology,"Research, Lab Work",Business,Data Analyst,Data Analytics & Business Intelligence
+112,BCA,Computer Applications,"Python, Web Development, Databases",Creativity,Web Developer,Software Development & Engineering
+199,BBA,Management,"Sales, Negotiation",Helping People,Business Analyst,Data Analytics & Business Intelligence
+181,MCA,Information Systems,"Programming, AI, Cloud",Technology,Software Architect,Software Development & Engineering
+218,BCA,Computer Applications,"Python, Web Development, Databases",Design,Web Developer,Software Development & Engineering
+98,BCA,Computer Applications,"Python, Web Development, Databases",Helping People,Web Developer,Software Development & Engineering
+226,MCA,Computer Science,"Programming, AI, Cloud",Research,Software Architect,Software Development & Engineering
+36,BBA,Finance,"Team Management, Excel",Healthcare,Business Analyst,Data Analytics & Business Intelligence
+20,BCA,Computer Applications,"Python, Web Development, Databases",Management,Software Developer,Software Development & Engineering
+227,BBA,Finance,"Sales, Negotiation",Design,Business Analyst,Data Analytics & Business Intelligence
+32,MCA,Information Systems,"Programming, AI, Cloud",Healthcare,Data Scientist,AI & Machine Learning Engineering
+235,MCA,Computer Science,"Programming, AI, Cloud",Social Work,Software Architect,Software Development & Engineering
+92,BCA,Computer Applications,"Python, Web Development, Databases",Healthcare,Software Developer,Software Development & Engineering
+206,MCA,Information Systems,"Database Design, Python",Helping People,Software Architect,Software Development & Engineering
+47,BCA,Computer Applications,"Python, Web Development, Databases",Design,System Analyst,"Cloud, DevOps & Systems Engineering"
+21,BBA,Management,"Sales, Negotiation",Creativity,Business Analyst,Data Analytics & Business Intelligence
+192,M.Tech,Structural Engineering,"Power Analysis, Python",Business,AI Engineer,AI & Machine Learning Engineering
+213,M.Tech,Power Systems,Design Optimization,Management,AI Engineer,AI & Machine Learning Engineering
+131,B.Sc,Mathematics,"Data Analysis, Experimentation",Healthcare,Data Analyst,Data Analytics & Business Intelligence
+115,B.Sc,Biology,"Research, Lab Work",Teaching,Data Analyst,Data Analytics & Business Intelligence
+78,MCA,Computer Science,"Database Design, Python",Management,Data Scientist,AI & Machine Learning Engineering

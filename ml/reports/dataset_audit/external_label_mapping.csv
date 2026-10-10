@@ -1,0 +1,485 @@
+RAW TITLE,CANONICAL TRACK,STATUS,FREQUENCY,MAPPING REASON
+nan,DISCARDED / OUT OF SCOPE,DISCARDED,296,Missing / Null survey response
+Student (Unemployed),DISCARDED / OUT OF SCOPE,DISCARDED,116,Unemployed / Non-outcome transition record
+Computer Software Engineer,Software Development & Engineering,RETAINED,27,Software application programming and engineering title
+Mechanical Engineer,DISCARDED / OUT OF SCOPE,DISCARDED,22,Non-IT traditional engineering discipline
+Business Analyst,Data Analytics & Business Intelligence,RETAINED,20,"Analytics, reporting, and BI specialist title"
+Teacher,DISCARDED / OUT OF SCOPE,DISCARDED,16,Non-IT or unmapped occupational domain
+Data Analyst,Data Analytics & Business Intelligence,RETAINED,15,"Analytics, reporting, and BI specialist title"
+Civil & Structural Engineer,DISCARDED / OUT OF SCOPE,DISCARDED,15,Non-IT traditional engineering discipline
+Software Engineer,Software Development & Engineering,RETAINED,10,Software application programming and engineering title
+Teaching,DISCARDED / OUT OF SCOPE,DISCARDED,9,Non-IT or unmapped occupational domain
+Sales Executive,DISCARDED / OUT OF SCOPE,DISCARDED,9,Non-IT or unmapped occupational domain
+Data Engineer,Database & Data Engineering,RETAINED,8,"Data pipeline, ETL, and database administration title"
+Software Developer,Software Development & Engineering,RETAINED,8,Software application programming and engineering title
+Java Developer,Software Development & Engineering,RETAINED,8,Software application programming and engineering title
+Mechanical Design Engineer,DISCARDED / OUT OF SCOPE,DISCARDED,7,Non-IT traditional engineering discipline
+associate Engineer,Software Development & Engineering,RETAINED,7,Software application programming and engineering title
+Assistant Professor,DISCARDED / OUT OF SCOPE,DISCARDED,6,Non-IT or unmapped occupational domain
+Software developer,Software Development & Engineering,RETAINED,6,Software application programming and engineering title
+Back End Developer,Software Development & Engineering,RETAINED,6,Software application programming and engineering title
+Tele-caller,DISCARDED / OUT OF SCOPE,DISCARDED,5,Non-IT or unmapped occupational domain
+Financial Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,5,Non-IT or unmapped occupational domain
+Web Developer,Software Development & Engineering,RETAINED,5,Software application programming and engineering title
+Marketing Manager,DISCARDED / OUT OF SCOPE,DISCARDED,5,Non-IT or unmapped occupational domain
+Developer,Software Development & Engineering,RETAINED,4,Software application programming and engineering title
+HR,DISCARDED / OUT OF SCOPE,DISCARDED,4,Non-IT or unmapped occupational domain
+Production Engineer,DISCARDED / OUT OF SCOPE,DISCARDED,4,Non-IT traditional engineering discipline
+Data Analyst,Data Analytics & Business Intelligence,RETAINED,4,"Analytics, reporting, and BI specialist title"
+Project Manager,DISCARDED / OUT OF SCOPE,DISCARDED,4,Non-IT or unmapped occupational domain
+Medical Practitioner,DISCARDED / OUT OF SCOPE,DISCARDED,4,Non-IT or unmapped occupational domain
+Research Associate,DISCARDED / OUT OF SCOPE,DISCARDED,4,Non-IT or unmapped occupational domain
+Associate Consultant,DISCARDED / OUT OF SCOPE,DISCARDED,4,Non-IT or unmapped occupational domain
+Front End Developer,Software Development & Engineering,RETAINED,4,Software application programming and engineering title
+Software engineer,Software Development & Engineering,RETAINED,4,Software application programming and engineering title
+Associate consultant,DISCARDED / OUT OF SCOPE,DISCARDED,4,Non-IT or unmapped occupational domain
+Data Scientist,AI & Machine Learning Engineering,RETAINED,4,AI/ML specialized engineering title
+Housewife,DISCARDED / OUT OF SCOPE,DISCARDED,3,Non-IT or unmapped occupational domain
+Engineer,Software Development & Engineering,RETAINED,3,Software application programming and engineering title
+Company Secretary,DISCARDED / OUT OF SCOPE,DISCARDED,3,Non-IT or unmapped occupational domain
+Programmer,Software Development & Engineering,RETAINED,3,Software application programming and engineering title
+Associate Software Engineer,Software Development & Engineering,RETAINED,3,Software application programming and engineering title
+Research Associate,DISCARDED / OUT OF SCOPE,DISCARDED,3,Non-IT or unmapped occupational domain
+HR executive,DISCARDED / OUT OF SCOPE,DISCARDED,3,Non-IT or unmapped occupational domain
+Quality Engineer,Software Development & Engineering,RETAINED,3,Software application programming and engineering title
+Assistant system engineer trainee,"Cloud, DevOps & Systems Engineering",RETAINED,3,"Cloud infrastructure, systems, or DevOps title"
+SQL Developer,Database & Data Engineering,RETAINED,3,"Data pipeline, ETL, and database administration title"
+Instrumentation and Control Engineer,Software Development & Engineering,RETAINED,3,Software application programming and engineering title
+Site Engineer,Software Development & Engineering,RETAINED,3,Software application programming and engineering title
+ASP.NET Developer,Software Development & Engineering,RETAINED,3,Software application programming and engineering title
+Data analyst,Data Analytics & Business Intelligence,RETAINED,3,"Analytics, reporting, and BI specialist title"
+Software,Software Development & Engineering,RETAINED,2,Software application programming and engineering title
+Design engineer,Software Development & Engineering,RETAINED,2,Software application programming and engineering title
+DevOps Engineer,"Cloud, DevOps & Systems Engineering",RETAINED,2,"Cloud infrastructure, systems, or DevOps title"
+Associate software engineer,Software Development & Engineering,RETAINED,2,Software application programming and engineering title
+Engineer-Power Electronics,Software Development & Engineering,RETAINED,2,Software application programming and engineering title
+Scientist,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Civil engineer,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT traditional engineering discipline
+Maintenance Engineer-Mechanical,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT traditional engineering discipline
+Associate consultant,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Design Engineer,Software Development & Engineering,RETAINED,2,Software application programming and engineering title
+Sales,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Mobile Application Developer,Software Development & Engineering,RETAINED,2,Software application programming and engineering title
+Digital/Social Media Marketer,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Cyber Security Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Stock Trader,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Test Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Design Engineer,Software Development & Engineering,RETAINED,2,Software application programming and engineering title
+Developer,Software Development & Engineering,RETAINED,2,Software application programming and engineering title
+Sales,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Chartered Accountant,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Executive Engineer,Software Development & Engineering,RETAINED,2,Software application programming and engineering title
+Dot net Developer,Software Development & Engineering,RETAINED,2,Software application programming and engineering title
+Dancing,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Assistent Engineer,Software Development & Engineering,RETAINED,2,Software application programming and engineering title
+ML Engineer,AI & Machine Learning Engineering,RETAINED,2,AI/ML specialized engineering title
+Data scientist,AI & Machine Learning Engineering,RETAINED,2,AI/ML specialized engineering title
+Cyber Security Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Journalist,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Software tester,Software Development & Engineering,RETAINED,2,Software application programming and engineering title
+Law Intern,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+associate trainee,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+VLSI Developer,Software Development & Engineering,RETAINED,2,Software application programming and engineering title
+Maintenance Engineer-Electrical,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT traditional engineering discipline
+IT Operations,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Technical Recruiter,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Lecturer,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Hardware Engineer,Software Development & Engineering,RETAINED,2,Software application programming and engineering title
+Salesforce Admin,DISCARDED / OUT OF SCOPE,DISCARDED,2,Non-IT or unmapped occupational domain
+Relationships manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Plant Instrumentation Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Network analyst,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Software Engineer Trainee,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+senior software engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Worked in Research Institute,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Embedded System Engineer,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+Mine Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Finance Manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+National Head,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Field Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Investment Banking Associate,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+VLSI Digital Design,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Production manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Life insurance,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Full stack developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Process analyst,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Junior interior designer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Pc,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Software engineer 1,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Sales manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Junior Software Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Mapping,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Functional Consultant,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Associate SCM,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Programmer Analyst Trainee (PAT),Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Risk analyst,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Data Entry,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Data Scientist-Intern,AI & Machine Learning Engineering,RETAINED,1,AI/ML specialized engineering title
+Regional Sales Manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Product Manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Publishing executive,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Senior software engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Techno commercial,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Advocate,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Electrician,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Mechanical design engineer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT traditional engineering discipline
+System Engineer,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+CS,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Operation & Maintenance Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Trainee Developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Sr. Territory sales manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Full Stack Developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Lawyer-Forensic Investigations,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Assistent Manger,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+litigation,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Business,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Software Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Supply Chain,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Associate IT consultant,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Buliding management system,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Sales force,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Deputy warden,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Business Consultant,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Teaching experience 5 years,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Asst. Manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Sub Editor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Se,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Sub-editor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Maths Content Developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Mahindra and Mahindra financial services limited,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+R&D Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Junior programmer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Vfx artist,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+logical trainee associate,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+PLM CONSULTANT,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Design engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+UX designer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Swimming coach,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Office assistant and acoounts,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Software Programmer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Assistant System Engineer,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+Back-end Developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Planning manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Operator,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Associate technology l2,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Lab assistent,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Test engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Data Scientist,AI & Machine Learning Engineering,RETAINED,1,AI/ML specialized engineering title
+Graduate Quality Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+ERP IMPLEMENTATION,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Junior system engineer trainee,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+Customer operation associate,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Structural engineer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT traditional engineering discipline
+QA Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Data entry,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Devops Engineer,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+Key Account Manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Trainee,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Assistant System Engineer (TCS),"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+Sr. Executive in Data Management.,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Automation in java lang,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Doctor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Service Advisor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Asst finance manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+CIS,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Programmer Analyst,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Operations Management,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+"Listing, Marketting , Stocking and Selling",DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+AWS Architect,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+Articleship,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Dental surgeon,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Hardware PCB Design Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Production field,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Production Supervisor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Account Assistant,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Python instructor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Crime reporter,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Software Developer Executive,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+graduatee engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Senior assistant delivery coordinator,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Programmer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Modeler,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+BA,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Investment Banking Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Journalist,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Junior sub editor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Content Creator,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Project Coordinator,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+DET,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Mechanical Supervisor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Quality Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Senior PMO - Data Analyst,Data Analytics & Business Intelligence,RETAINED,1,"Analytics, reporting, and BI specialist title"
+Site engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Store keeper,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Java Full Stack Developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Chemist in pharmaceutical,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Business developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Web Developer and Digital Marketer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Sub-editor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Customer service,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Catalog Associate,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Managing director,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Mechanical design Engineer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT traditional engineering discipline
+Video labeling(Artificial intelligence) and Medical Coding,AI & Machine Learning Engineering,RETAINED,1,AI/ML specialized engineering title
+Admin,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Senior Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Quality Assurance,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Business development associate,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Statistical programmer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Lotus Notes Admin,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+"Senior Technical Recruiter, Recruitment Specialist, Talent Acquisition Specialist (IT)",DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Structural Engineer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT traditional engineering discipline
+digital marketing reqruiter,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Linux Administrator,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+store assistant,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Network engineer,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+Product development associate,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Team lead in Mortgage banking;,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Receptionist in coaching center,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Research Fellow,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Not working,DISCARDED / OUT OF SCOPE,DISCARDED,1,Unemployed / Non-outcome transition record
+Associate Professional,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Electronics  Engineer- Research Analyst,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+MIS Executive,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+graduate trainee,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+HDFC BANK,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Lab Technician -Food Safety & Quality,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Legal Associate,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Power,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Still working jbm auto pvt Ltd company Engineering quality department,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Request Proposal Manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Business Development Manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Traniee,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Associate Engineer - Controls & Software,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+SAFETY OFFICER,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+DATA ANALYST,Data Analytics & Business Intelligence,RETAINED,1,"Analytics, reporting, and BI specialist title"
+Sales Service Engineer-Electrical,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT traditional engineering discipline
+Young Horticulture expert,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Quality engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Back Office Executive,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Salem Farmers producer company/current job appen,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+HR Executive,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Clinical Research Associate,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Accountent,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+BMS executive,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Entrepreneur,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Civil Design Engineer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT traditional engineering discipline
+Quality control engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+SOFTWARE Tester,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Design Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Product Engineer (AI/ML),AI & Machine Learning Engineering,RETAINED,1,AI/ML specialized engineering title
+Mahendra Next Wealth IT Pvt Ltd.Malasamuthiram,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Sale executive,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Embedded Developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Project Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Desktop support engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+VFX Designer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Hr admin,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Medical representative,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Back end operations,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Store manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Associate,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Process exceutive,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Mechine Learning Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Self employed,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Cultfit,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Project intern,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Marketing Executive,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Clothes designer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Marketing executive,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+I m a marketing head,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+software developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Motor controller,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Saleforce developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Billing engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Service advisor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Telecaller,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+iOS Developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+accountant,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Material Planner,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Front End Java Developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Field sales officer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+CES-CAE- FEA Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Database Administrator,Database & Data Engineering,RETAINED,1,"Data pipeline, ETL, and database administration title"
+trainee and associates,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Production specialist,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Software Developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Mechanical product developer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT traditional engineering discipline
+General masdor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Senior associate,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Compliance Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Mechanical Engineer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT traditional engineering discipline
+Process executive-Data,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Active Trading Service,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Computerized accounting,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Loco pilot,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Dietician,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+ASSOCIATE OPERATIONS PROCESSOR-1,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Sr. Political Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Buisness devlopment excutive,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Operations specialist,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Tata projects ltd,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Testing engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Associate System Engineer,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+Graphic Designer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+senior chemist,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Quality analyst,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Dance teacher in Dehli public school Jankipuram Lucknow,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+ASE,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Teaching Assistant-Biotechnology,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+AWS Developer,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+Litigation Lawyer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Front End Developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Civil Engineer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT traditional engineering discipline
+Executive,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Team leader,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Application developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Flipkart customer care executive,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Maintenance engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Content creator,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+System Administrator,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+Ast.purchase manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Project Manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Application Development Analyst,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Site Civil Engineer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT traditional engineering discipline
+School accountant,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Dance teacher,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+PLM Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+site Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Associate Engineer - DevOps,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+Data Science and Game Design Trainer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+I was working as Dean R n D,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+ZIGNA AI PVT LTD,AI & Machine Learning Engineering,RETAINED,1,AI/ML specialized engineering title
+Corporate and Disputes Lawyer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Quality Assurances Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+CES-CAE- FEA Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Qualitative Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Process Operations Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Tax Consultant,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+TRI,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Sub editor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Junior Architect,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Assistant Professor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Traning and Development,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Real e-state agent,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+IT SUPPORT,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Associative staff,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Digital marketing executive,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Tax consultant,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Fruit business,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Senior Associate,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Program engineering (IT),Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Apprentice DP world Navi Mumbai,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Technical writer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Junior Developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Specialist Programmer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Information Secuirty Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Data analysis,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Jr. Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Hardware Design Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Web developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Finance consultant,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Medical Posting,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+System engineer,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+Intern at innodatatics,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+supervisor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Transcriber/Script editor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Felix healtcare pvt ltd,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Operation Manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Trainee consultant - Quality,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Lawyer -IPR,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Medical and sales reprasentative,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Teaching job,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Associate it consultant - erp,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Intern,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+GAT- Engine testing engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+sub Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Telemarketer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+DevOps Engineer,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+Data entry operator,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Senior Editor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+BUSINESS DEVELOPMENT MANAGER,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Project Associate,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Technical Associate,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Business,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Tech support,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Researcher,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Content writer and creative strategist,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+IT Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Software testing,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Programmer analyst,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+QA Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Entry Level Software Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+PAT,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+SAP consultant,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+FSC,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Customer care,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Psychologist,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+FITNESS CONSULTANT EXPERT,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Copywriter,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Software engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Accountant,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Biocurator,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+nothing,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+TESTING ENGINEER,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Pharma Benefit Analyst,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Cyber Security Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Associate Data Scientist,AI & Machine Learning Engineering,RETAINED,1,AI/ML specialized engineering title
+Security officer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Business Trainee,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Python Developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Operations specialist,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Talent Acquisition Executive,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Management trainee,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Human Resources Assistant,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Procurement engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+GET,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+"Telecaller,sale exicutive",DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Operations Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Software engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Purchase executive,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+QA Specialist,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Software Tester,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+APAC Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Associate Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Personal Advisory,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+RPA developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Relationship manager at icici,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Business operations,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Sales excellent,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Machine operator,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Gis engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Retail manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+student Onboarding team member,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Site engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Chemical Process Engineer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT traditional engineering discipline
+Marketing guy (TMA),DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Systems engineer,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+Social media executive,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+UPS supervisor,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Software Development Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Jumio Document Verification Team,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+manager,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Placement Trainee,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Php developer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Game Programmer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+QC engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Miritary soldier,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Assistant Engineer,Software Development & Engineering,RETAINED,1,Software application programming and engineering title
+Graphics Designer,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Scientist in Downstream Protein Purification,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Associate System Engineer,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+Gatemen,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+NA,DISCARDED / OUT OF SCOPE,DISCARDED,1,Unemployed / Non-outcome transition record
+PREVIOUSLY WORKED,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Cloud Engineer,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+ASSISTANT SYSTEM ENGINEER TRAINEE,"Cloud, DevOps & Systems Engineering",RETAINED,1,"Cloud infrastructure, systems, or DevOps title"
+Product Specialist,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+MIS,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Nothing,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+Hr Assistant II,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain
+VFX Production Assistant,DISCARDED / OUT OF SCOPE,DISCARDED,1,Non-IT or unmapped occupational domain

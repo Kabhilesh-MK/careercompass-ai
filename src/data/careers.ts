@@ -1,0 +1,212 @@
+import { Career } from '@/types/careerCompass';
+
+export const DEMO_CAREERS: Career[] = [
+  {
+    id: 'career-ai-ml',
+    title: 'AI & Machine Learning Engineer',
+    slug: 'ai-ml-engineer',
+    careerTrack: 'AI & Machine Learning',
+    shortDescription: 'Architect, train, evaluate, and operationalize robust machine learning models and intelligent production pipelines.',
+    overview: 'AI & Machine Learning Engineers bridge the gap between mathematical machine learning research and enterprise software systems. You will develop predictive models, design MLOps pipelines, optimize inference latency, and deploy intelligent agents in cloud and edge environments.',
+    responsibilities: [
+      'Design, train, and validate supervised and unsupervised deep learning models',
+      'Construct automated feature engineering and data ingestion workflows',
+      'Package models with Docker and implement CI/CD for continuous model delivery (MLOps)',
+      'Monitor data drift, concept drift, and inference performance in production',
+      'Collaborate with product and data engineering teams to define intelligence KPIs'
+    ],
+    coreSkills: ['Python', 'Machine Learning', 'Deep Learning', 'Statistics', 'MLOps', 'SQL'],
+    technicalSkills: ['PyTorch', 'TensorFlow', 'scikit-learn', 'Docker', 'Kubernetes', 'FastAPI', 'MLflow', 'Hugging Face'],
+    softSkills: ['Analytical Rigor', 'Cross-Functional Communication', 'Experimental Design', 'Problem Decomposition'],
+    typicalTools: ['JupyterLab', 'VS Code', 'Weights & Biases', 'AWS SageMaker', 'GitHub Actions', 'PostgreSQL'],
+    learningDifficulty: 'Advanced',
+    programmingIntensity: 'High',
+    dataIntensity: 'Very High',
+    cloudExposure: 'High',
+    salaryRange: '$120,000 - $185,000',
+    demandRating: 'Very High',
+    learningPathOverview: [
+      'Stage 1: Python & Numerical Computing',
+      'Stage 2: Statistical Foundations & Exploratory Analysis',
+      'Stage 3: Supervised & Unsupervised Machine Learning',
+      'Stage 4: Deep Learning & Neural Architectures',
+      'Stage 5: Production MLOps & Real-Time Serving',
+      'Stage 6: Enterprise Capstone Implementation'
+    ],
+    recommendedProjectIds: ['proj-resume-nlp', 'proj-fraud-ml'],
+    simulationIds: ['sim-cognizant-ai'],
+    demoMatchScore: 86,
+    marketOutlook: 'Projected 38% 5-year growth with rising enterprise adoption of generative AI and automated decision intelligence.'
+  },
+  {
+    id: 'career-data-scientist',
+    title: 'Data Scientist',
+    slug: 'data-scientist',
+    careerTrack: 'Data Science & Analytics',
+    shortDescription: 'Uncover actionable patterns in complex multi-dimensional datasets to guide executive strategy and algorithmic products.',
+    overview: 'Data Scientists apply rigorous statistical methods, hypothesis testing, and machine learning to translate vast enterprise data into strategic insights and predictive capabilities.',
+    responsibilities: [
+      'Formulate and test business hypotheses using advanced statistical methods and A/B experiments',
+      'Build predictive algorithms for customer churn, forecasting, and cohort segmentation',
+      'Synthesize complex analytical findings into executive dashboards and strategic briefs',
+      'Cleanse, impute, and transform unstructured and semi-structured data'
+    ],
+    coreSkills: ['Python', 'SQL', 'Statistics', 'Data Visualization', 'Hypothesis Testing'],
+    technicalSkills: ['Pandas', 'NumPy', 'Statsmodels', 'Seaborn', 'Tableau', 'Power BI', 'R'],
+    softSkills: ['Executive Storytelling', 'Curiosity', 'Domain Acumen', 'Stakeholder Management'],
+    typicalTools: ['Jupyter', 'Snowflake', 'BigQuery', 'Tableau', 'Git', 'dbt'],
+    learningDifficulty: 'Intermediate',
+    programmingIntensity: 'Medium',
+    dataIntensity: 'Very High',
+    cloudExposure: 'Medium',
+    salaryRange: '$105,000 - $160,000',
+    demandRating: 'High',
+    learningPathOverview: [
+      'Stage 1: Data Manipulation with Pandas & SQL',
+      'Stage 2: Inferential Statistics & Probability Theory',
+      'Stage 3: Applied Predictive Modeling & Clustering',
+      'Stage 4: Executive Business Intelligence & Storytelling'
+    ],
+    recommendedProjectIds: ['proj-ecommerce-churn'],
+    simulationIds: ['sim-jpmc-quant'],
+    demoMatchScore: 78,
+    marketOutlook: 'Consistent demand across healthcare, fintech, and digital commerce; specialization in causal inference command premium compensation.'
+  },
+  {
+    id: 'career-mlops',
+    title: 'MLOps & Platform Engineer',
+    slug: 'mlops-platform-engineer',
+    careerTrack: 'AI & Machine Learning',
+    shortDescription: 'Construct scalable infrastructure, CI/CD pipelines, and governance for continuous model retraining and serving.',
+    overview: 'MLOps Engineers establish the bridge between data science experimentation and enterprise site reliability engineering. They automate model registries, telemetry, inference APIs, and distributed GPU clusters.',
+    responsibilities: [
+      'Standardize model packaging, versioning, and deployment through CI/CD pipelines',
+      'Implement real-time monitoring for model latency, feature attribution, and data drift',
+      'Manage container orchestration across multi-tenant GPU and TPU clusters',
+      'Enforce compliance, reproducible experiments, and model governance frameworks'
+    ],
+    coreSkills: ['Docker', 'Kubernetes', 'CI/CD', 'Python', 'Cloud Architecture', 'Linux'],
+    technicalSkills: ['Terraform', 'MLflow', 'KServe', 'Prometheus', 'Grafana', 'Ray', 'Argo Workflows'],
+    softSkills: ['Systems Thinking', 'Incident Management', 'Collaboration', 'Documentation'],
+    typicalTools: ['Kubernetes', 'Helm', 'GitLab CI', 'AWS EKS', 'Datadog', 'FastAPI'],
+    learningDifficulty: 'Advanced',
+    programmingIntensity: 'High',
+    dataIntensity: 'Medium',
+    cloudExposure: 'Very High',
+    salaryRange: '$125,000 - $190,000',
+    demandRating: 'Very High',
+    learningPathOverview: [
+      'Stage 1: Linux & Containerization Foundations',
+      'Stage 2: Kubernetes Orchestration & Helm',
+      'Stage 3: ML Lifecycles with MLflow & DVC',
+      'Stage 4: Cloud Infrastructure as Code with Terraform'
+    ],
+    recommendedProjectIds: ['proj-k8s-mlops'],
+    simulationIds: ['sim-cloud-platform'],
+    demoMatchScore: 72,
+    marketOutlook: 'Fastest-growing engineering specialization as enterprise ML investments transition from experimentation to production.'
+  },
+  {
+    id: 'career-cloud-devops',
+    title: 'Cloud & DevOps Engineer',
+    slug: 'cloud-devops-engineer',
+    careerTrack: 'Cloud & DevOps',
+    shortDescription: 'Design, deploy, and safeguard resilient, self-healing cloud architectures and continuous integration pipelines.',
+    overview: 'Cloud & DevOps Engineers ensure software systems achieve maximum availability, scalability, and security through infrastructure as code, automated pipelines, and observability.',
+    responsibilities: [
+      'Automate multi-region cloud infrastructure using declarative Infrastructure as Code (IaC)',
+      'Optimize application delivery through automated build, test, and release pipelines',
+      'Architect robust disaster recovery, zero-trust network policies, and least-privilege IAM',
+      'Troubleshoot platform outages and configure comprehensive telemetry alerts'
+    ],
+    coreSkills: ['AWS/GCP/Azure', 'Terraform', 'Docker', 'Kubernetes', 'CI/CD', 'Linux'],
+    technicalSkills: ['Ansible', 'Bash Scripting', 'GitHub Actions', 'Datadog', 'Prometheus', 'CloudFormation'],
+    softSkills: ['Stress Tolerance', 'Clear Technical Communication', 'Methodical Root Cause Analysis'],
+    typicalTools: ['AWS Console', 'Terraform CLI', 'kubectl', 'Docker Desktop', 'PagerDuty'],
+    learningDifficulty: 'Intermediate',
+    programmingIntensity: 'Medium',
+    dataIntensity: 'Low',
+    cloudExposure: 'Very High',
+    salaryRange: '$110,000 - $165,000',
+    demandRating: 'High',
+    learningPathOverview: [
+      'Stage 1: Linux Administration & Networking Fundamentals',
+      'Stage 2: Cloud Core Services (Compute, VPC, Storage, IAM)',
+      'Stage 3: Infrastructure as Code with Terraform',
+      'Stage 4: Kubernetes Cluster Operations & GitOps'
+    ],
+    recommendedProjectIds: ['proj-terraform-aws'],
+    simulationIds: ['sim-cloud-platform'],
+    demoMatchScore: 65,
+    marketOutlook: 'High enterprise stickiness; multi-cloud governance and FinOps skills command premier salaries.'
+  },
+  {
+    id: 'career-fullstack',
+    title: 'Full-Stack Software Engineer',
+    slug: 'fullstack-software-engineer',
+    careerTrack: 'Full-Stack Software Engineering',
+    shortDescription: 'Engineer complete web applications from interactive user interfaces to performant backend services and databases.',
+    overview: 'Full-Stack Engineers build end-to-end digital experiences, crafting responsive user interfaces while architecting secure backend APIs, microservices, and high-throughput data layers.',
+    responsibilities: [
+      'Develop modern client applications with TypeScript, React, and modular state architectures',
+      'Design RESTful and GraphQL APIs with robust authentication and input validation',
+      'Implement relational and document database schemas, migrations, and query tuning',
+      'Write end-to-end automated test suites and participate in rigorous code reviews'
+    ],
+    coreSkills: ['TypeScript', 'React', 'Node.js', 'PostgreSQL', 'API Design', 'System Architecture'],
+    technicalSkills: ['Next.js', 'Express', 'Tailwind CSS', 'Redis', 'Prisma', 'Jest', 'Git'],
+    softSkills: ['Product Sensibility', 'Agile Mindset', 'Empathy for End Users', 'Rapid Prototyping'],
+    typicalTools: ['VS Code', 'Postman', 'Chrome DevTools', 'Docker', 'GitHub', 'Figma'],
+    learningDifficulty: 'Intermediate',
+    programmingIntensity: 'Very High',
+    dataIntensity: 'Medium',
+    cloudExposure: 'Medium',
+    salaryRange: '$95,000 - $155,000',
+    demandRating: 'High',
+    learningPathOverview: [
+      'Stage 1: Modern JavaScript & TypeScript Foundations',
+      'Stage 2: Component Architecture with React',
+      'Stage 3: Backend API Engineering with Node.js & Express',
+      'Stage 4: Relational Databases & ORM Integration',
+      'Stage 5: Full-Stack Production Deployment & Testing'
+    ],
+    recommendedProjectIds: ['proj-career-portal'],
+    simulationIds: ['sim-fullstack-delivery'],
+    demoMatchScore: 68,
+    marketOutlook: 'Universal demand across startups and Fortune 500 organizations with high remote work availability.'
+  },
+  {
+    id: 'career-data-engineer',
+    title: 'Data Engineer',
+    slug: 'data-engineer',
+    careerTrack: 'Data Science & Analytics',
+    shortDescription: 'Construct reliable high-throughput data pipelines, data warehouses, and streaming platforms for analytical scale.',
+    overview: 'Data Engineers design, maintain, and optimize data architectures that funnel raw events into structured analytical lakes and warehouses for downstream machine learning and reporting.',
+    responsibilities: [
+      'Construct automated batch and real-time streaming ETL/ELT data pipelines',
+      'Optimize data warehouse schemas using medallion architecture (Bronze, Silver, Gold)',
+      'Ensure data quality, governance, schema registry enforcement, and lineage visibility',
+      'Fine-tune distributed queries in Spark, Trino, and Snowflake for cost efficiency'
+    ],
+    coreSkills: ['Python', 'SQL', 'Apache Spark', 'Data Modeling', 'Data Warehousing'],
+    technicalSkills: ['Kafka', 'Airflow', 'dbt', 'Snowflake', 'Delta Lake', 'PostgreSQL', 'AWS S3'],
+    softSkills: ['Architectural Foresight', 'Attention to Data Integrity', 'Cross-Team Coordination'],
+    typicalTools: ['Airflow UI', 'Snowflake Studio', 'Databricks', 'dbt Cloud', 'Git'],
+    learningDifficulty: 'Advanced',
+    programmingIntensity: 'High',
+    dataIntensity: 'Very High',
+    cloudExposure: 'High',
+    salaryRange: '$115,000 - $170,000',
+    demandRating: 'Very High',
+    learningPathOverview: [
+      'Stage 1: Advanced Relational SQL & Dimensional Modeling',
+      'Stage 2: Python for Data Extraction & APIs',
+      'Stage 3: Workflow Orchestration with Apache Airflow',
+      'Stage 4: Distributed Computing with Apache Spark & Cloud Lakes'
+    ],
+    recommendedProjectIds: ['proj-streaming-pipeline'],
+    simulationIds: ['sim-jpmc-quant'],
+    demoMatchScore: 65,
+    marketOutlook: 'Critical prerequisite for enterprise AI maturity, creating sustained hiring demand nationwide.'
+  }
+];

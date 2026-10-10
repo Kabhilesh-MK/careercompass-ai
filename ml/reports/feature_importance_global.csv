@@ -1,0 +1,30 @@
+rank,feature_name,feature_group,permutation_importance_mean,permutation_importance_std,mdi_importance,top_associated_class
+1,skill_python,Technical Skill,0.23749999999999996,0.022606806681469492,0.13027260057806336,Data Analytics & Business Intelligence
+2,skill_design_optimization,Technical Skill,0.061458333333333295,0.005103103630798283,0.10022440131197556,AI & Machine Learning Engineering
+3,skill_database_systems,Technical Skill,0.01770833333333329,0.01530931089239485,0.09808550116400354,"Cloud, DevOps & Systems Engineering"
+4,skill_web_development,Technical Skill,0.0010416666666666296,0.01333984216131842,0.09285384605475996,"Cloud, DevOps & Systems Engineering"
+5,skill_ai,Technical Skill,0.0,0.0,0.0682164401020376,Data Analytics & Business Intelligence
+6,skill_database_design,Technical Skill,0.0,0.0,0.056151799484154795,AI & Machine Learning Engineering
+7,skill_cad,Technical Skill,0.00885416666666664,0.007007095857850879,0.03671555735522808,Software Development & Engineering
+8,skill_matlab,Technical Skill,0.0,0.0,0.042345610558935064,AI & Machine Learning Engineering
+9,skill_programming,Technical Skill,0.0,0.0,0.037377106421149595,Data Analytics & Business Intelligence
+10,skill_critical_thinking,Technical Skill,0.001041666666666652,0.002083333333333304,0.03113417808625842,Data Analytics & Business Intelligence
+11,skill_cloud,Technical Skill,0.0,0.0,0.0311930420163404,Data Analytics & Business Intelligence
+12,skill_power_analysis,Technical Skill,0.0,0.0,0.029613128003607284,AI & Machine Learning Engineering
+13,skill_communication,Technical Skill,0.0,0.0,0.027587695663964518,Data Analytics & Business Intelligence
+14,skill_machine_learning,Technical Skill,0.01041666666666663,0.0,0.016571066678844205,Data Analytics & Business Intelligence
+15,skill_pscad,Technical Skill,0.0,0.0,0.020476620104619092,Software Development & Engineering
+16,skill_simulation,Technical Skill,0.0,0.0,0.018529241205507693,AI & Machine Learning Engineering
+17,skill_plc,Technical Skill,0.0,0.0,0.01815130116411493,Software Development & Engineering
+18,skill_research,Technical Skill,0.0,0.0,0.016715580340956958,Data Analytics & Business Intelligence
+19,skill_design,Technical Skill,0.0,0.0,0.0159465256715296,Software Development & Engineering
+20,skill_observation,Technical Skill,0.0,0.0,0.015384126882097095,Data Analytics & Business Intelligence
+21,skill_autocad,Technical Skill,0.0,0.0,0.013530425657083515,Data Analytics & Business Intelligence
+22,skill_lab_work,Technical Skill,0.0,0.0,0.013252251043935676,Data Analytics & Business Intelligence
+23,skill_recording,Technical Skill,0.0,0.0,0.01155934621751179,Data Analytics & Business Intelligence
+24,skill_negotiation,Technical Skill,0.0,0.0,0.011259968412904678,Data Analytics & Business Intelligence
+25,skill_sales,Technical Skill,0.0,0.0,0.01117350436847889,Data Analytics & Business Intelligence
+26,skill_excel,Technical Skill,0.0,0.0,0.010696689235997913,Data Analytics & Business Intelligence
+27,skill_team_management,Technical Skill,0.0,0.0,0.00924150211873788,Data Analytics & Business Intelligence
+28,skill_data_analysis,Technical Skill,0.0,0.0,0.008074438615643942,Data Analytics & Business Intelligence
+29,skill_experimentation,Technical Skill,0.0,0.0,0.007666505481557891,Data Analytics & Business Intelligence

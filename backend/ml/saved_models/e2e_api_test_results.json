@@ -1,0 +1,561 @@
+{
+  "results": {
+    "PRE-FLIGHT": [
+      {
+        "test": "FastAPI Running",
+        "status": "PASS",
+        "details": {
+          "status": "ok",
+          "app": "CareerCompass AI",
+          "version": "2.0.0"
+        }
+      },
+      {
+        "test": "MongoDB Connected",
+        "status": "PASS",
+        "details": {
+          "collections_count": 20
+        }
+      },
+      {
+        "test": "Vite Frontend Running",
+        "status": "PASS",
+        "details": {
+          "status": 200
+        }
+      },
+      {
+        "test": "ML Artifacts Ready",
+        "status": "PASS",
+        "details": {
+          "model_ready": true,
+          "encoder_ready": true,
+          "preprocessor_ready": true,
+          "model_path": "C:\\Users\\kabhi\\Desktop\\Semester 4 projects\\DSA 3.0\\project-bolt-sb1-djprtkdr\\project\\backend\\ml\\saved_models\\career_prediction_model.pkl"
+        }
+      }
+    ],
+    "AUTHENTICATION": [
+      {
+        "test": "Register User A (201)",
+        "status": "PASS",
+        "details": {
+          "token_present": true,
+          "user_id": "6a9c3c0b78d44964fa06b311"
+        }
+      },
+      {
+        "test": "Login User A (200)",
+        "status": "PASS",
+        "details": {
+          "token_present": true,
+          "user_id": "6a9c3c0b78d44964fa06b311"
+        }
+      },
+      {
+        "test": "Protected Routes Reject Unauth (401)",
+        "status": "PASS",
+        "details": {
+          "profile_status": 401,
+          "pred_status": 401
+        }
+      }
+    ],
+    "ONBOARDING": [
+      {
+        "test": "Initial profile_completed is False",
+        "status": "PASS",
+        "details": {
+          "profile_completed": false
+        }
+      },
+      {
+        "test": "Update Academic & Basic Profile",
+        "status": "PASS",
+        "details": {}
+      },
+      {
+        "test": "profile_completed transitioned to True",
+        "status": "PASS",
+        "details": {}
+      }
+    ],
+    "ML PREDICTION": [
+      {
+        "test": "POST /api/ml/predict Success",
+        "status": "PASS",
+        "details": {
+          "predicted_career": "Data Analyst",
+          "top_5_count": 5,
+          "confidence": 12.38,
+          "top_5": [
+            [
+              "Data Analyst",
+              12.38
+            ],
+            [
+              "AI Engineer",
+              10.32
+            ],
+            [
+              "Data Scientist",
+              10.22
+            ],
+            [
+              "Cloud Engineer",
+              8.59
+            ],
+            [
+              "Backend Developer",
+              7.9
+            ]
+          ]
+        }
+      },
+      {
+        "test": "GET /api/ml/prediction returns persisted prediction",
+        "status": "PASS",
+        "details": {
+          "persisted_career": "Data Analyst",
+          "persisted_user_id": "6a9c3c0b78d44964fa06b311",
+          "matches_user": true
+        }
+      },
+      {
+        "test": "GET /api/ml/skill-gap returns skill gap",
+        "status": "PASS",
+        "details": {
+          "targetRole": "Data Analyst",
+          "matchPercentage": 100,
+          "currentSkillsCount": 8,
+          "missingSkillsCount": 0
+        }
+      },
+      {
+        "test": "GET /api/ml/roadmap endpoint existence",
+        "status": "WARNING",
+        "details": {
+          "status": 404,
+          "note": "Frontend and backend use GET /api/roadmap for user roadmap."
+        }
+      },
+      {
+        "test": "GET /api/roadmap returns persisted roadmap",
+        "status": "PASS",
+        "details": {
+          "target_role": "Data Analyst",
+          "milestones_count": 6
+        }
+      },
+      {
+        "test": "GET /api/ml/placement returns placement score",
+        "status": "PASS",
+        "details": {
+          "overallScore": 66,
+          "breakdown": [
+            {
+              "subject": "Programming",
+              "score": 78
+            },
+            {
+              "subject": "Soft Skills",
+              "score": 76
+            },
+            {
+              "subject": "Projects",
+              "score": 40
+            },
+            {
+              "subject": "Cgpa",
+              "score": 84
+            },
+            {
+              "subject": "Internship",
+              "score": 33
+            },
+            {
+              "subject": "Certifications",
+              "score": 33
+            },
+            {
+              "subject": "Communication",
+              "score": 75
+            }
+          ]
+        }
+      }
+    ],
+    "USER ISOLATION": [
+      {
+        "test": "Register User B",
+        "status": "PASS",
+        "details": {
+          "user_b_id": "6a9c3c0b78d44964fa06b313"
+        }
+      },
+      {
+        "test": "User B ML Prediction Executed",
+        "status": "PASS",
+        "details": {
+          "predicted_career": "Mobile App Developer"
+        }
+      },
+      {
+        "test": "Profile Scoped to Authenticated User",
+        "status": "PASS",
+        "details": {
+          "user_a_email": "e2e_test_user_a@test.com",
+          "user_b_email": "e2e_test_user_b@test.com"
+        }
+      },
+      {
+        "test": "Prediction Scoped to Authenticated User",
+        "status": "PASS",
+        "details": {
+          "user_a_persisted_id": "6a9c3c0b78d44964fa06b311",
+          "user_b_persisted_id": "6a9c3c0b78d44964fa06b313"
+        }
+      },
+      {
+        "test": "Roadmap Scoped to Authenticated User",
+        "status": "PASS",
+        "details": {
+          "rm_a_user_id": "6a9c3c0b78d44964fa06b311",
+          "rm_b_user_id": "6a9c3c0b78d44964fa06b313"
+        }
+      },
+      {
+        "test": "Cross-User Resume Access Blocked",
+        "status": "PASS",
+        "details": {
+          "status": 404
+        }
+      },
+      {
+        "test": "Mentor History Scoped to User",
+        "status": "PASS",
+        "details": {
+          "user_b_message_count": 0
+        }
+      },
+      {
+        "test": "Settings Scoped to User",
+        "status": "PASS",
+        "details": {
+          "user_b_theme": "light"
+        }
+      }
+    ],
+    "PROFILE DIFFERENTIATION": [
+      {
+        "test": "Profile A Analysis (Data/ML Profile)",
+        "status": "PASS",
+        "details": {
+          "top_career": "Data Analyst",
+          "top1_probability": 12.38,
+          "top5": [
+            [
+              "Data Analyst",
+              12.38
+            ],
+            [
+              "AI Engineer",
+              10.32
+            ],
+            [
+              "Data Scientist",
+              10.22
+            ],
+            [
+              "Cloud Engineer",
+              8.59
+            ],
+            [
+              "Backend Developer",
+              7.9
+            ]
+          ],
+          "all_14": {
+            "AI Engineer": 10.32,
+            "Backend Developer": 7.9,
+            "Business Analyst": 7.83,
+            "Cloud Engineer": 8.59,
+            "Cybersecurity Analyst": 3.82,
+            "Data Analyst": 12.38,
+            "Data Scientist": 10.22,
+            "DevOps Engineer": 7.24,
+            "Frontend Developer": 5.94,
+            "Full Stack Developer": 2.62,
+            "ML Engineer": 7.75,
+            "Mobile App Developer": 3.72,
+            "QA Engineer": 5.18,
+            "Software Engineer": 6.48
+          },
+          "normalized_entropy": 0.9724
+        }
+      },
+      {
+        "test": "Profile B Analysis (Web/Frontend Profile)",
+        "status": "PASS",
+        "details": {
+          "top_career": "Mobile App Developer",
+          "top1_probability": 12.02,
+          "top5": [
+            [
+              "Mobile App Developer",
+              12.02
+            ],
+            [
+              "Backend Developer",
+              11.96
+            ],
+            [
+              "Frontend Developer",
+              11.12
+            ],
+            [
+              "Full Stack Developer",
+              9.07
+            ],
+            [
+              "ML Engineer",
+              8.63
+            ]
+          ],
+          "all_14": {
+            "AI Engineer": 4.33,
+            "Backend Developer": 11.96,
+            "Business Analyst": 4.44,
+            "Cloud Engineer": 5.73,
+            "Cybersecurity Analyst": 2.71,
+            "Data Analyst": 4.38,
+            "Data Scientist": 6.69,
+            "DevOps Engineer": 6.49,
+            "Frontend Developer": 11.12,
+            "Full Stack Developer": 9.07,
+            "ML Engineer": 8.63,
+            "Mobile App Developer": 12.02,
+            "QA Engineer": 7.53,
+            "Software Engineer": 4.92
+          },
+          "normalized_entropy": 0.9686
+        }
+      },
+      {
+        "test": "Observable Profiles Produce Distinct Distributions",
+        "status": "PASS",
+        "details": {
+          "distributions_differ": true
+        }
+      }
+    ],
+    "RESUME": [
+      {
+        "test": "Upload Valid PDF Resume",
+        "status": "PASS",
+        "details": {
+          "resume_id": "6a9c3c0c78d44964fa06b315",
+          "filename": "test_resume.pdf"
+        }
+      },
+      {
+        "test": "Resume Analysis Execution & ATS Score",
+        "status": "PASS",
+        "details": {
+          "ats_score": 0,
+          "has_recommendations": true
+        }
+      }
+    ],
+    "MENTOR": [
+      {
+        "test": "Send Message & Receive Response",
+        "status": "PASS",
+        "details": {
+          "reply_length": 349,
+          "sample": "Based on your profile and career goals, here's what I recomm"
+        }
+      },
+      {
+        "test": "Chat History Persisted",
+        "status": "PASS",
+        "details": {
+          "messages_count": 2
+        }
+      }
+    ],
+    "REPORTS": [
+      {
+        "test": "Generate Aggregated Report",
+        "status": "PASS",
+        "details": {
+          "user_name": null,
+          "target_career": null
+        }
+      },
+      {
+        "test": "Export HTML Report",
+        "status": "PASS",
+        "details": {
+          "html_bytes": 4416
+        }
+      }
+    ],
+    "SETTINGS": [
+      {
+        "test": "Load Settings",
+        "status": "PASS",
+        "details": {
+          "theme": "light",
+          "accent_color": "#6D4CFF",
+          "notifications": {
+            "career": true,
+            "roadmap": true,
+            "certs": true,
+            "reports": false,
+            "mentor": true,
+            "marketing": false
+          },
+          "privacy": {
+            "profile": "public",
+            "show_progress": true,
+            "show_skills": true
+          }
+        }
+      },
+      {
+        "test": "Update Settings",
+        "status": "PASS",
+        "details": {
+          "theme": "dark",
+          "accent_color": "#6D4CFF",
+          "notifications": {
+            "career": true,
+            "roadmap": true,
+            "certs": true,
+            "reports": false,
+            "mentor": true,
+            "marketing": false
+          },
+          "privacy": {
+            "profile": "public",
+            "show_progress": true,
+            "show_skills": true
+          }
+        }
+      },
+      {
+        "test": "Settings Persist After Reload",
+        "status": "PASS",
+        "details": {
+          "theme": "dark",
+          "accent_color": "#6D4CFF",
+          "notifications": {
+            "career": true,
+            "roadmap": true,
+            "certs": true,
+            "reports": false,
+            "mentor": true,
+            "marketing": false
+          },
+          "privacy": {
+            "profile": "public",
+            "show_progress": true,
+            "show_skills": true
+          }
+        }
+      }
+    ],
+    "ERROR HANDLING": [
+      {
+        "test": "Invalid Token Returns 401",
+        "status": "PASS",
+        "details": {
+          "status": 401
+        }
+      },
+      {
+        "test": "Malformed ML Profile Returns 422/400",
+        "status": "PASS",
+        "details": {
+          "status": 422
+        }
+      },
+      {
+        "test": "Non-Existent Endpoint Returns 404",
+        "status": "PASS",
+        "details": {
+          "status": 404
+        }
+      }
+    ],
+    "MONGODB VERIFICATION": [
+      {
+        "test": "Collection Scoping Audit",
+        "status": "PASS",
+        "details": {
+          "users": {
+            "user_a_records": 1,
+            "user_b_records": 1
+          },
+          "skills": {
+            "user_a_records": 0,
+            "user_b_records": 0
+          },
+          "predictions": {
+            "user_a_records": 1,
+            "user_b_records": 1
+          },
+          "roadmaps": {
+            "user_a_records": 1,
+            "user_b_records": 1
+          },
+          "resumes": {
+            "user_a_records": 1,
+            "user_b_records": 0
+          },
+          "resume_analyses": {
+            "user_a_records": 1,
+            "user_b_records": 0
+          },
+          "chat_history": {
+            "user_a_records": 1,
+            "user_b_records": 0
+          },
+          "learning_progress": {
+            "user_a_records": 0,
+            "user_b_records": 0
+          },
+          "achievements": {
+            "user_a_records": 0,
+            "user_b_records": 0
+          },
+          "settings": {
+            "user_a_records": 0,
+            "user_b_records": 0
+          },
+          "reports": {
+            "user_a_records": 0,
+            "user_b_records": 0
+          },
+          "placement_scores": {
+            "user_a_records": 0,
+            "user_b_records": 0
+          },
+          "notifications": {
+            "user_a_records": 0,
+            "user_b_records": 0
+          },
+          "favorites": {
+            "user_a_records": 0,
+            "user_b_records": 0
+          }
+        }
+      }
+    ]
+  },
+  "user_a_id": "6a9c3c0b78d44964fa06b311",
+  "user_b_id": "6a9c3c0b78d44964fa06b313",
+  "user_a_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2YTljM2MwYjc4ZDQ0OTY0ZmEwNmIzMTEiLCJyb2xlIjoic3R1ZGVudCIsImV4cCI6MTc4ODYyNzQ4MywiaWF0IjoxNzg4NjIzODgzLCJ0eXBlIjoiYWNjZXNzIn0.JUT92W9aF2aofpENWNhLq4dVjK17IOU_qpff-XNWIwE",
+  "user_b_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2YTljM2MwYjc4ZDQ0OTY0ZmEwNmIzMTMiLCJyb2xlIjoic3R1ZGVudCIsImV4cCI6MTc4ODYyNzQ4MywiaWF0IjoxNzg4NjIzODgzLCJ0eXBlIjoiYWNjZXNzIn0.dxbPD3PtGj6aVMra0BzbVmlpVxETuS-cDgBaD2dCFFg"
+}

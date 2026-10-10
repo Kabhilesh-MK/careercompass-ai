@@ -1,0 +1,562 @@
+"""Career knowledge base — required skills, courses, certs, projects, books,
+practice sites, and interview topics per career label.
+
+Loaded once at import time from JSON; falling back to the Python constant
+lets the module work before the JSON file is written.
+"""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+from typing import Any
+
+# ---------------------------------------------------------------------------
+# Knowledge base definition
+# ---------------------------------------------------------------------------
+
+KNOWLEDGE_BASE: dict[str, Any] = {
+    "Software Engineer": {
+        "required_skills": [
+            "Python", "Java", "C++", "Git", "GitHub", "SQL",
+            "Problem Solving", "Aptitude", "Linux", "Docker",
+        ],
+        "soft_skills": ["Communication", "Teamwork", "Problem Solving", "Leadership"],
+        "courses": [
+            "Data Structures & Algorithms (Coursera)",
+            "Clean Code with Robert Martin (Udemy)",
+            "System Design Primer (GitHub)",
+            "CS50 Introduction to Computer Science (edX)",
+            "Java Masterclass (Udemy)",
+        ],
+        "certifications": [
+            "Oracle Certified Professional Java SE",
+            "AWS Developer Associate",
+            "Microsoft Certified: Azure Developer Associate",
+        ],
+        "projects": [
+            "Build a RESTful API with FastAPI / Spring Boot",
+            "Design a URL shortener with Redis caching",
+            "Implement a mini compiler / interpreter",
+            "Build a task-queue system from scratch",
+        ],
+        "books": [
+            "Clean Code — Robert C. Martin",
+            "The Pragmatic Programmer — Hunt & Thomas",
+            "Design Patterns — Gang of Four",
+            "Cracking the Coding Interview — Gayle Laakmann McDowell",
+        ],
+        "practice_sites": ["LeetCode", "HackerRank", "Codeforces", "GeeksForGeeks"],
+        "interview_topics": [
+            "Arrays & Strings", "Linked Lists", "Trees & Graphs",
+            "Dynamic Programming", "System Design", "OOP principles",
+        ],
+        "salary_range": "$80k – $160k",
+        "growth": "High",
+        "demand": "Very High",
+        "description": "Design, develop and maintain scalable software systems.",
+    },
+    "Frontend Developer": {
+        "required_skills": [
+            "HTML", "CSS", "JavaScript", "React", "Git", "GitHub",
+            "Problem Solving", "Communication",
+        ],
+        "soft_skills": ["Creativity", "Communication", "Attention to Detail"],
+        "courses": [
+            "The Complete JavaScript Course (Udemy)",
+            "React — The Complete Guide (Udemy)",
+            "CSS for JavaScript Developers (joshwcomeau.com)",
+            "TypeScript with React (Scrimba)",
+        ],
+        "certifications": [
+            "Meta Front-End Developer Certificate",
+            "Google UX Design Certificate",
+        ],
+        "projects": [
+            "Build a responsive portfolio website",
+            "Clone a popular SaaS landing page",
+            "Create a real-time chat UI with WebSockets",
+            "Build a component library with Storybook",
+        ],
+        "books": [
+            "JavaScript: The Good Parts — Douglas Crockford",
+            "You Don't Know JS — Kyle Simpson",
+            "CSS Secrets — Lea Verou",
+        ],
+        "practice_sites": ["Frontend Mentor", "CodePen", "CSS Battle", "JavaScript30"],
+        "interview_topics": [
+            "DOM Manipulation", "Event Loop", "React Hooks",
+            "CSS Flexbox & Grid", "Web Performance", "Accessibility",
+        ],
+        "salary_range": "$70k – $140k",
+        "growth": "High",
+        "demand": "High",
+        "description": "Build user-facing interfaces with modern web technologies.",
+    },
+    "Backend Developer": {
+        "required_skills": [
+            "Python", "Java", "NodeJS", "SQL", "MySQL", "MongoDB", "Docker",
+            "Git", "Linux", "Problem Solving",
+        ],
+        "soft_skills": ["Problem Solving", "Communication", "Teamwork"],
+        "courses": [
+            "Node.js — The Complete Guide (Udemy)",
+            "Django REST Framework (Official Docs)",
+            "FastAPI Full Course (YouTube)",
+            "PostgreSQL for Everybody (Coursera)",
+        ],
+        "certifications": [
+            "AWS Certified Solutions Architect",
+            "MongoDB Associate Developer",
+        ],
+        "projects": [
+            "Build a multi-tenant SaaS backend",
+            "Design a microservice with Kafka + Docker",
+            "Implement JWT authentication system",
+            "Build a GraphQL API with rate limiting",
+        ],
+        "books": [
+            "Designing Data-Intensive Applications — Kleppmann",
+            "Clean Architecture — Robert C. Martin",
+            "The Twelve-Factor App",
+        ],
+        "practice_sites": ["LeetCode", "HackerRank", "SQLZoo", "Exercism"],
+        "interview_topics": [
+            "Database design", "REST vs GraphQL", "Caching strategies",
+            "Authentication flows", "Concurrency", "Microservices",
+        ],
+        "salary_range": "$85k – $165k",
+        "growth": "High",
+        "demand": "Very High",
+        "description": "Build robust server-side APIs, services, and databases.",
+    },
+    "Full Stack Developer": {
+        "required_skills": [
+            "HTML", "CSS", "JavaScript", "React", "NodeJS",
+            "SQL", "MySQL", "MongoDB", "Git", "Docker", "Python",
+        ],
+        "soft_skills": ["Adaptability", "Communication", "Teamwork"],
+        "courses": [
+            "The Odin Project (Full Stack)",
+            "Full Stack Open (University of Helsinki)",
+            "MERN Stack — Full Course (freeCodeCamp)",
+        ],
+        "certifications": [
+            "Meta Full-Stack Engineer Certificate",
+            "AWS Certified Developer Associate",
+        ],
+        "projects": [
+            "Build a full-stack e-commerce platform",
+            "Clone a productivity app (Notion / Trello)",
+            "Build a real-time collaborative editor",
+        ],
+        "books": [
+            "Learning Web Design — Jennifer Robbins",
+            "Node.js Design Patterns — Casciaro & Mammino",
+        ],
+        "practice_sites": ["freeCodeCamp", "The Odin Project", "Frontend Mentor"],
+        "interview_topics": [
+            "Client-server model", "API design", "Database relationships",
+            "Deployment pipelines", "Security best practices",
+        ],
+        "salary_range": "$90k – $160k",
+        "growth": "High",
+        "demand": "Very High",
+        "description": "Develop both client-side and server-side of web applications.",
+    },
+    "Data Analyst": {
+        "required_skills": [
+            "Python", "SQL", "MySQL", "Excel", "Power BI", "Statistics",
+            "Communication", "Problem Solving",
+        ],
+        "soft_skills": ["Communication", "Storytelling", "Attention to Detail"],
+        "courses": [
+            "Google Data Analytics Certificate (Coursera)",
+            "SQL for Data Science (Coursera)",
+            "Python for Data Analysis (Udemy)",
+            "Power BI — Desktop (Microsoft Learn)",
+        ],
+        "certifications": [
+            "Google Data Analytics Professional Certificate",
+            "Microsoft Power BI Data Analyst (PL-300)",
+            "IBM Data Analyst Professional Certificate",
+        ],
+        "projects": [
+            "Exploratory analysis of a Kaggle public dataset",
+            "Build a sales KPI dashboard in Power BI",
+            "Customer churn analysis with cohort analysis",
+            "A/B test analysis with statistical significance",
+        ],
+        "books": [
+            "Storytelling with Data — Cole Knaflic",
+            "Python for Data Analysis — Wes McKinney",
+            "Practical Statistics for Data Scientists",
+        ],
+        "practice_sites": ["Kaggle", "Mode Analytics", "HackerRank SQL", "DataCamp"],
+        "interview_topics": [
+            "SQL window functions", "Pandas operations", "Statistical concepts",
+            "Dashboard design", "ETL processes", "Business metrics",
+        ],
+        "salary_range": "$60k – $120k",
+        "growth": "High",
+        "demand": "High",
+        "description": "Transform raw data into actionable business insights.",
+    },
+    "Data Scientist": {
+        "required_skills": [
+            "Python", "Machine Learning", "Statistics", "SQL",
+            "Deep Learning", "Power BI", "Problem Solving",
+        ],
+        "soft_skills": ["Communication", "Critical Thinking", "Curiosity", "Leadership"],
+        "courses": [
+            "Machine Learning Specialization (Coursera — Andrew Ng)",
+            "Applied Data Science with Python (Coursera)",
+            "Fast.ai Practical Deep Learning",
+            "Statistics & Probability (Khan Academy)",
+        ],
+        "certifications": [
+            "IBM Data Science Professional Certificate",
+            "Databricks Certified Associate Developer for Apache Spark",
+            "AWS Certified Machine Learning Specialty",
+        ],
+        "projects": [
+            "End-to-end ML pipeline on a real dataset",
+            "NLP sentiment analysis on product reviews",
+            "Time series forecasting with Prophet / LSTM",
+            "Anomaly detection in server logs",
+        ],
+        "books": [
+            "Hands-On Machine Learning — Aurélien Géron",
+            "The Elements of Statistical Learning",
+            "Python Machine Learning — Raschka & Mirjalili",
+        ],
+        "practice_sites": ["Kaggle", "DrivenData", "Zindi", "DataCamp"],
+        "interview_topics": [
+            "Bias-variance tradeoff", "Feature engineering", "Model selection",
+            "Overfitting remedies", "A/B testing", "SQL for data extraction",
+        ],
+        "salary_range": "$95k – $175k",
+        "growth": "Very High",
+        "demand": "Very High",
+        "description": "Build predictive models and derive insights from complex datasets.",
+    },
+    "ML Engineer": {
+        "required_skills": [
+            "Python", "Machine Learning", "Deep Learning", "Docker",
+            "AWS", "Git", "Linux", "SQL", "Problem Solving",
+        ],
+        "soft_skills": ["Problem Solving", "Communication", "Teamwork"],
+        "courses": [
+            "MLOps Specialization (Coursera — deeplearning.ai)",
+            "Deploying ML Models with FastAPI (Real Python)",
+            "Kubeflow Pipelines (Google)",
+            "Practical MLOps (O'Reilly)",
+        ],
+        "certifications": [
+            "AWS Certified Machine Learning Specialty",
+            "Google Professional ML Engineer",
+            "TensorFlow Developer Certificate",
+        ],
+        "projects": [
+            "Deploy a model as a REST API with Docker",
+            "Build an MLOps pipeline with MLflow + DVC",
+            "Implement model monitoring and drift detection",
+            "Build a feature store for a recommendation engine",
+        ],
+        "books": [
+            "Designing Machine Learning Systems — Chip Huyen",
+            "Building Machine Learning Pipelines — Hapke & Nelson",
+            "Machine Learning Engineering — Andriy Burkov",
+        ],
+        "practice_sites": ["Kaggle", "Papers With Code", "Hugging Face", "MLflow Docs"],
+        "interview_topics": [
+            "Model serving", "CI/CD for ML", "Data versioning",
+            "Distributed training", "Feature engineering at scale",
+        ],
+        "salary_range": "$100k – $185k",
+        "growth": "Very High",
+        "demand": "Very High",
+        "description": "Build infrastructure and pipelines to deploy ML models at scale.",
+    },
+    "Cloud Engineer": {
+        "required_skills": [
+            "AWS", "Azure", "Docker", "Linux", "Git",
+            "Python", "Problem Solving",
+        ],
+        "soft_skills": ["Problem Solving", "Communication", "Adaptability"],
+        "courses": [
+            "AWS Solutions Architect (A Cloud Guru)",
+            "Azure Fundamentals AZ-900 (Microsoft Learn)",
+            "Docker & Kubernetes Complete Guide (Udemy)",
+            "Terraform Associate (HashiCorp Learn)",
+        ],
+        "certifications": [
+            "AWS Certified Solutions Architect — Associate",
+            "Microsoft Azure Administrator (AZ-104)",
+            "Google Associate Cloud Engineer",
+            "Certified Kubernetes Administrator (CKA)",
+        ],
+        "projects": [
+            "Deploy a three-tier app on AWS (EC2 + RDS + S3)",
+            "Set up Infrastructure-as-Code with Terraform",
+            "Configure a Kubernetes cluster with auto-scaling",
+            "Build a serverless data pipeline with AWS Lambda",
+        ],
+        "books": [
+            "AWS Certified Solutions Architect Study Guide",
+            "Cloud Native Patterns — Cornelia Davis",
+            "Kubernetes in Action — Marko Luksa",
+        ],
+        "practice_sites": ["AWS Skill Builder", "A Cloud Guru", "Linux Academy", "KodeKloud"],
+        "interview_topics": [
+            "IAM & security", "VPC networking", "Load balancing",
+            "Cost optimization", "High availability design", "Serverless patterns",
+        ],
+        "salary_range": "$90k – $170k",
+        "growth": "Very High",
+        "demand": "High",
+        "description": "Design and manage cloud infrastructure for enterprise applications.",
+    },
+    "DevOps Engineer": {
+        "required_skills": [
+            "Docker", "Linux", "Git", "GitHub", "AWS",
+            "Python", "MySQL", "Problem Solving",
+        ],
+        "soft_skills": ["Collaboration", "Problem Solving", "Communication", "Leadership"],
+        "courses": [
+            "DevOps Bootcamp (Udemy — TechWorld with Nana)",
+            "CI/CD with GitHub Actions (GitHub Learning)",
+            "Jenkins for Beginners (CloudBees University)",
+            "Site Reliability Engineering (Google SRE book)",
+        ],
+        "certifications": [
+            "AWS DevOps Engineer Professional",
+            "Certified Kubernetes Administrator (CKA)",
+            "HashiCorp Certified Terraform Associate",
+        ],
+        "projects": [
+            "Build a CI/CD pipeline with GitHub Actions + Docker",
+            "Implement blue-green deployment on Kubernetes",
+            "Set up centralized logging with ELK stack",
+            "Automate infrastructure provisioning with Ansible",
+        ],
+        "books": [
+            "The DevOps Handbook — Kim, Humble, Debois",
+            "Site Reliability Engineering — Google",
+            "The Phoenix Project — Gene Kim",
+        ],
+        "practice_sites": ["KodeKloud", "Play with Docker", "Katacoda", "GitHub Actions Docs"],
+        "interview_topics": [
+            "CI/CD pipelines", "Container orchestration", "Monitoring & alerting",
+            "Infrastructure as Code", "Incident management", "GitOps",
+        ],
+        "salary_range": "$90k – $170k",
+        "growth": "High",
+        "demand": "High",
+        "description": "Bridge development and operations to enable rapid, reliable releases.",
+    },
+    "Cybersecurity Analyst": {
+        "required_skills": [
+            "Linux", "Python", "Git", "Problem Solving",
+            "Communication", "Aptitude",
+        ],
+        "soft_skills": ["Attention to Detail", "Critical Thinking", "Ethics"],
+        "courses": [
+            "Google Cybersecurity Certificate (Coursera)",
+            "CompTIA Security+ Study (Professor Messer)",
+            "Ethical Hacking from Scratch (Udemy)",
+            "Splunk Fundamentals 1 (Splunk Education)",
+        ],
+        "certifications": [
+            "CompTIA Security+",
+            "Certified Ethical Hacker (CEH)",
+            "CISSP",
+            "AWS Security Specialty",
+        ],
+        "projects": [
+            "Set up a home lab with Kali Linux",
+            "Complete TryHackMe learning paths",
+            "Build a log analysis dashboard with Splunk",
+            "Perform a vulnerability scan with OpenVAS",
+        ],
+        "books": [
+            "The Web Application Hacker's Handbook",
+            "Hacking: The Art of Exploitation — Jon Erickson",
+            "Blue Team Handbook — Don Murdoch",
+        ],
+        "practice_sites": ["TryHackMe", "HackTheBox", "VulnHub", "PicoCTF"],
+        "interview_topics": [
+            "OSI model", "Firewalls & IDS", "Encryption protocols",
+            "Incident response", "OWASP Top 10", "Penetration testing methodology",
+        ],
+        "salary_range": "$80k – $150k",
+        "growth": "Very High",
+        "demand": "High",
+        "description": "Protect organizations from digital threats and data breaches.",
+    },
+    "QA Engineer": {
+        "required_skills": [
+            "Python", "SQL", "MySQL", "Git", "Communication",
+            "Problem Solving", "Teamwork",
+        ],
+        "soft_skills": ["Attention to Detail", "Communication", "Methodical Thinking"],
+        "courses": [
+            "ISTQB Foundation (BCS)",
+            "Selenium WebDriver with Python (Udemy)",
+            "API Testing with Postman (Postman Academy)",
+            "Cypress End-to-End Testing (Official Docs)",
+        ],
+        "certifications": [
+            "ISTQB Certified Tester Foundation Level",
+            "AWS Certified Developer Associate",
+        ],
+        "projects": [
+            "Automate a login flow with Selenium + pytest",
+            "Build a REST API test suite with Pytest + Requests",
+            "Performance test a web app with JMeter",
+            "Set up a CI test pipeline with GitHub Actions",
+        ],
+        "books": [
+            "The Art of Software Testing — Myers",
+            "Clean Code — Robert C. Martin",
+            "Lessons Learned in Software Testing — Kaner",
+        ],
+        "practice_sites": ["LeetCode", "HackerRank", "The Testing Map", "Ministry of Testing"],
+        "interview_topics": [
+            "Test types & levels", "Test case design", "Bug lifecycle",
+            "Automation frameworks", "Performance testing", "CI/CD integration",
+        ],
+        "salary_range": "$65k – $125k",
+        "growth": "Medium",
+        "demand": "Medium",
+        "description": "Ensure software quality through manual and automated testing.",
+    },
+    "Business Analyst": {
+        "required_skills": [
+            "Excel", "SQL", "Power BI", "Statistics",
+            "Communication", "Teamwork", "Problem Solving",
+        ],
+        "soft_skills": ["Communication", "Stakeholder Management", "Critical Thinking", "Leadership"],
+        "courses": [
+            "Business Analysis Fundamentals (IIBA)",
+            "Excel for Business (Coursera — Macquarie)",
+            "SQL for Business Intelligence (Mode Analytics)",
+            "Agile Business Analysis (LinkedIn Learning)",
+        ],
+        "certifications": [
+            "IIBA CBAP",
+            "PMI Professional in Business Analysis (PMI-PBA)",
+            "Certified Business Analysis Professional",
+        ],
+        "projects": [
+            "Perform a gap analysis for a simulated business",
+            "Build a financial model in Excel",
+            "Write a business requirements document (BRD)",
+            "Create a process flow diagram with BPMN",
+        ],
+        "books": [
+            "A Guide to the Business Analysis Body of Knowledge (BABOK)",
+            "Requirements Engineering — Sommerville",
+            "User Story Mapping — Jeff Patton",
+        ],
+        "practice_sites": ["Kaggle", "DataCamp", "Mode Analytics", "IIBA Resources"],
+        "interview_topics": [
+            "Requirements elicitation", "Use cases", "UAT", "Process modeling",
+            "Agile ceremonies", "KPI definition",
+        ],
+        "salary_range": "$70k – $130k",
+        "growth": "Medium",
+        "demand": "High",
+        "description": "Bridge the gap between business stakeholders and technical teams.",
+    },
+    "Mobile App Developer": {
+        "required_skills": [
+            "JavaScript", "React", "Java", "Git",
+            "Problem Solving", "Communication",
+        ],
+        "soft_skills": ["Creativity", "Attention to Detail", "User Empathy"],
+        "courses": [
+            "React Native — The Practical Guide (Udemy)",
+            "Android Development with Kotlin (Udacity)",
+            "Flutter & Dart — Complete Guide (Udemy)",
+            "iOS Swift Programming (Stanford CS193p)",
+        ],
+        "certifications": [
+            "Associate Android Developer (Google)",
+            "Meta iOS Developer Certificate",
+        ],
+        "projects": [
+            "Build a cross-platform to-do app with React Native",
+            "Create a fitness tracker with HealthKit / Google Fit",
+            "Implement push notifications with Firebase",
+            "Build an offline-first note-taking app",
+        ],
+        "books": [
+            "React Native in Action — Nader Dabit",
+            "Learning Swift — Paris Buttfield-Addison",
+            "Android Programming: The Big Nerd Ranch Guide",
+        ],
+        "practice_sites": ["Expo Snack", "Flutter Docs", "Android Developers", "Ray Wenderlich"],
+        "interview_topics": [
+            "App lifecycle", "State management", "Native modules",
+            "App Store submission", "Performance profiling", "Offline storage",
+        ],
+        "salary_range": "$80k – $150k",
+        "growth": "High",
+        "demand": "High",
+        "description": "Build native and cross-platform apps for iOS and Android.",
+    },
+    "AI Engineer": {
+        "required_skills": [
+            "Python", "Machine Learning", "Deep Learning", "AWS",
+            "Docker", "Git", "Problem Solving", "Statistics",
+        ],
+        "soft_skills": ["Research Mindset", "Communication", "Curiosity"],
+        "courses": [
+            "Deep Learning Specialization (deeplearning.ai)",
+            "LLM Engineering (Hugging Face Course)",
+            "Transformers for NLP (Udemy)",
+            "Reinforcement Learning (DeepMind x UCL)",
+        ],
+        "certifications": [
+            "TensorFlow Developer Certificate",
+            "AWS Certified Machine Learning Specialty",
+            "NVIDIA Deep Learning Institute Certificates",
+        ],
+        "projects": [
+            "Fine-tune an LLM for a domain-specific task",
+            "Build a RAG-based chatbot with LangChain",
+            "Implement a generative image pipeline with Stable Diffusion",
+            "Train a custom object detection model with YOLOv8",
+        ],
+        "books": [
+            "Deep Learning — Goodfellow, Bengio, Courville",
+            "Natural Language Processing with Transformers — Tunstall",
+            "Hands-On Machine Learning — Aurélien Géron",
+        ],
+        "practice_sites": ["Hugging Face", "Papers With Code", "Kaggle", "fast.ai"],
+        "interview_topics": [
+            "Transformer architecture", "Attention mechanism", "Fine-tuning LLMs",
+            "Embeddings", "Evaluation metrics for generative AI", "Prompt engineering",
+        ],
+        "salary_range": "$110k – $200k",
+        "growth": "Very High",
+        "demand": "Very High",
+        "description": "Design and deploy cutting-edge AI systems including LLMs and generative models.",
+    },
+}
+
+
+def save_knowledge_base(path: Path) -> None:
+    """Write the in-memory knowledge base to ``path`` as JSON."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as fh:
+        json.dump(KNOWLEDGE_BASE, fh, indent=2)
+
+
+def load_knowledge_base(path: Path) -> dict[str, Any]:
+    """Load knowledge base from JSON; fall back to in-memory constant."""
+    if path.exists():
+        with path.open("r", encoding="utf-8") as fh:
+            return json.load(fh)
+    return KNOWLEDGE_BASE

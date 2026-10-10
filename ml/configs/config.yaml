@@ -1,0 +1,92 @@
+# CareerCompass ML Pipeline Configuration — Phase 3.1
+# Academic Reproducibility & Pipeline Specification
+
+reproducibility:
+  random_seed: 42
+  stratify: true
+  python_version_min: "3.10"
+
+taxonomy:
+  canonical_tracks:
+    - "Software Development & Engineering"
+    - "AI & Machine Learning Engineering"
+    - "Data Analytics & Business Intelligence"
+    - "Cloud, DevOps & Systems Engineering"
+    - "Database & Data Engineering"
+
+primary_dataset:
+  name: "Perfectly Realistic Career Guidance Dataset (Divya Eldho)"
+  kaggle_identifier: "divyaeldho/perfectly-realistic-career-guidance-dataset"
+  raw_file: "data/raw/perfectly_realistic_career_guidance_dataset_1500.csv"
+  provenance: "Curated / LLM Rule-Assisted Dataset"
+  target_column: "Recommended_Career"
+  canonical_target_column: "canonical_career_track"
+  test_size: 0.20
+  features:
+    categorical:
+      - "Education_Level"
+      - "Specialization"
+      - "Interests"
+    text_list:
+      - "Skills"
+  excluded_columns:
+    - "Career_Description"  # Direct target leakage (curator justification text)
+
+external_dataset:
+  name: "Career Recommendation Dataset (Breejesh Dhar)"
+  kaggle_identifier: "breejeshdhar/career-recommendation-dataset"
+  raw_file: "data/raw/career_recommender.csv"
+  provenance: "Real-World Self-Reported Student Survey (Google Form)"
+  evaluation_only: true  # DO NOT TRAIN ON THIS DATASET
+  target_column: "If yes, then what is/was your first Job title in your current field of work? If not applicable, write NA.               "
+  canonical_target_column: "canonical_career_track"
+  drop_columns:
+    - "What is your name?"                                                                                                  # Direct Identifier Leakage
+    - "What is your gender?"                                                                                                # Ethical / Demographic Bias
+    - "Are you working?"                                                                                                    # Post-Outcome Employment Status
+    - "Have you done masters after undergraduation? If yes, mention your field of masters.(Eg; Masters in Mathematics)"    # Post-Outcome Academic Information
+  features:
+    academic:
+      - "What was your course in UG?"
+      - "What is your UG specialization? Major Subject (Eg; Mathematics)"
+      - "What was the average CGPA or Percentage obtained in under graduation?"
+    interests:
+      - "What are your interests?"
+    skills:
+      - "What are your skills ? (Select multiple if necessary)"
+    certifications:
+      - "Did you do any certification courses additionally?"
+      - "If yes, please specify your certificate course title."
+
+riasec_dataset:
+  name: "Student Career Prediction using RIASEC (S Venkatesh Kumar)"
+  kaggle_identifier: "svenkateshkumar/student-career-prediction-using-riasec-dataset"
+  raw_file: "data/raw/career_data.csv"
+  provenance: "Synthetic / Psychometric Rule-Derived Benchmark"
+  benchmark_only: true  # DO NOT MERGE WITH PRIMARY DATASET
+  target_column: "Career"
+  config_a_features:
+    - "Math_Score"
+    - "Science_Score"
+    - "Programming_Skill"
+    - "Communication_Skill"
+    - "Logical_Ability"
+  config_b_features:
+    - "Math_Score"
+    - "Science_Score"
+    - "Programming_Skill"
+    - "Communication_Skill"
+    - "Logical_Ability"
+    - "R_score"
+    - "I_score"
+    - "A_score"
+    - "S_score"
+    - "E_score"
+    - "C_score"
+
+paths:
+  raw_dir: "data/raw"
+  interim_dir: "data/interim"
+  processed_dir: "data/processed"
+  reports_dir: "reports/dataset_audit"
+  figures_dir: "reports/figures"

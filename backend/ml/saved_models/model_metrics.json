@@ -1,0 +1,829 @@
+{
+  "production_model": "RandomForest",
+  "selected_feature_group": "Exp_D_Full",
+  "feature_count": 33,
+  "cv_metrics": {
+    "model_name": "RandomForest",
+    "cv_accuracy_mean": 0.0897,
+    "cv_accuracy_std": 0.0104,
+    "cv_macro_f1_mean": 0.086,
+    "cv_macro_f1_std": 0.0104,
+    "cv_weighted_f1_mean": 0.0869
+  },
+  "test_metrics": {
+    "accuracy": 0.083,
+    "macro_precision": 0.0774,
+    "macro_recall": 0.0811,
+    "macro_f1": 0.078,
+    "weighted_f1": 0.0793,
+    "log_loss": 2.6535,
+    "brier_score": 0.9305
+  },
+  "confusion_matrix": [
+    [
+      7,
+      5,
+      8,
+      7,
+      8,
+      5,
+      8,
+      0,
+      7,
+      6,
+      1,
+      7,
+      4,
+      5
+    ],
+    [
+      10,
+      8,
+      7,
+      8,
+      10,
+      3,
+      3,
+      3,
+      6,
+      4,
+      0,
+      4,
+      9,
+      4
+    ],
+    [
+      1,
+      5,
+      3,
+      8,
+      13,
+      5,
+      4,
+      2,
+      7,
+      7,
+      3,
+      6,
+      2,
+      5
+    ],
+    [
+      9,
+      9,
+      4,
+      3,
+      5,
+      7,
+      6,
+      1,
+      8,
+      0,
+      3,
+      4,
+      3,
+      8
+    ],
+    [
+      10,
+      8,
+      4,
+      7,
+      11,
+      4,
+      4,
+      2,
+      9,
+      1,
+      4,
+      4,
+      2,
+      6
+    ],
+    [
+      7,
+      6,
+      8,
+      10,
+      8,
+      3,
+      6,
+      3,
+      4,
+      2,
+      1,
+      7,
+      1,
+      3
+    ],
+    [
+      5,
+      11,
+      6,
+      5,
+      3,
+      3,
+      7,
+      1,
+      5,
+      5,
+      2,
+      7,
+      3,
+      4
+    ],
+    [
+      7,
+      8,
+      5,
+      4,
+      3,
+      2,
+      3,
+      0,
+      6,
+      5,
+      4,
+      8,
+      1,
+      7
+    ],
+    [
+      7,
+      10,
+      0,
+      4,
+      6,
+      2,
+      0,
+      2,
+      11,
+      4,
+      0,
+      20,
+      3,
+      5
+    ],
+    [
+      5,
+      5,
+      5,
+      1,
+      5,
+      4,
+      4,
+      1,
+      9,
+      8,
+      1,
+      9,
+      6,
+      4
+    ],
+    [
+      5,
+      6,
+      4,
+      6,
+      5,
+      6,
+      2,
+      1,
+      4,
+      4,
+      3,
+      8,
+      5,
+      5
+    ],
+    [
+      10,
+      2,
+      3,
+      7,
+      3,
+      6,
+      4,
+      0,
+      13,
+      5,
+      5,
+      11,
+      4,
+      5
+    ],
+    [
+      5,
+      7,
+      4,
+      1,
+      5,
+      7,
+      4,
+      1,
+      10,
+      3,
+      5,
+      11,
+      4,
+      6
+    ],
+    [
+      3,
+      9,
+      3,
+      6,
+      5,
+      6,
+      4,
+      3,
+      6,
+      5,
+      5,
+      6,
+      6,
+      4
+    ]
+  ],
+  "classification_report": {
+    "AI Engineer": {
+      "precision": 0.07692307692307693,
+      "recall": 0.08974358974358974,
+      "f1-score": 0.08284023668639054,
+      "support": 78.0
+    },
+    "Backend Developer": {
+      "precision": 0.08080808080808081,
+      "recall": 0.10126582278481013,
+      "f1-score": 0.0898876404494382,
+      "support": 79.0
+    },
+    "Business Analyst": {
+      "precision": 0.046875,
+      "recall": 0.04225352112676056,
+      "f1-score": 0.044444444444444446,
+      "support": 71.0
+    },
+    "Cloud Engineer": {
+      "precision": 0.03896103896103896,
+      "recall": 0.04285714285714286,
+      "f1-score": 0.04081632653061224,
+      "support": 70.0
+    },
+    "Cybersecurity Analyst": {
+      "precision": 0.12222222222222222,
+      "recall": 0.14473684210526316,
+      "f1-score": 0.13253012048192772,
+      "support": 76.0
+    },
+    "Data Analyst": {
+      "precision": 0.047619047619047616,
+      "recall": 0.043478260869565216,
+      "f1-score": 0.045454545454545456,
+      "support": 69.0
+    },
+    "Data Scientist": {
+      "precision": 0.11864406779661017,
+      "recall": 0.1044776119402985,
+      "f1-score": 0.1111111111111111,
+      "support": 67.0
+    },
+    "DevOps Engineer": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 63.0
+    },
+    "Frontend Developer": {
+      "precision": 0.10476190476190476,
+      "recall": 0.14864864864864866,
+      "f1-score": 0.12290502793296089,
+      "support": 74.0
+    },
+    "Full Stack Developer": {
+      "precision": 0.13559322033898305,
+      "recall": 0.11940298507462686,
+      "f1-score": 0.12698412698412698,
+      "support": 67.0
+    },
+    "ML Engineer": {
+      "precision": 0.08108108108108109,
+      "recall": 0.046875,
+      "f1-score": 0.0594059405940594,
+      "support": 64.0
+    },
+    "Mobile App Developer": {
+      "precision": 0.09821428571428571,
+      "recall": 0.14102564102564102,
+      "f1-score": 0.11578947368421053,
+      "support": 78.0
+    },
+    "QA Engineer": {
+      "precision": 0.07547169811320754,
+      "recall": 0.0547945205479452,
+      "f1-score": 0.06349206349206349,
+      "support": 73.0
+    },
+    "Software Engineer": {
+      "precision": 0.056338028169014086,
+      "recall": 0.056338028169014086,
+      "f1-score": 0.056338028169014086,
+      "support": 71.0
+    },
+    "accuracy": 0.083,
+    "macro avg": {
+      "precision": 0.07739376803632522,
+      "recall": 0.08113554392095043,
+      "f1-score": 0.07799993471535036,
+      "support": 1000.0
+    },
+    "weighted avg": {
+      "precision": 0.07815945598034763,
+      "recall": 0.083,
+      "f1-score": 0.07929984606246154,
+      "support": 1000.0
+    }
+  },
+  "explainability": {
+    "model_family": "RandomForest",
+    "method": "Permutation Importance + Native (if available)",
+    "native_tree_gini_importance": {
+      "Python": 0.03248,
+      "Java": 0.03244,
+      "C++": 0.03217,
+      "SQL": 0.0328,
+      "HTML": 0.03115,
+      "CSS": 0.03397,
+      "JavaScript": 0.03379,
+      "React": 0.03313,
+      "NodeJS": 0.03275,
+      "MongoDB": 0.03236,
+      "MySQL": 0.0311,
+      "Git": 0.03296,
+      "GitHub": 0.03219,
+      "AWS": 0.03195,
+      "Azure": 0.03243,
+      "Docker": 0.03261,
+      "Linux": 0.03284,
+      "Machine Learning": 0.03301,
+      "Deep Learning": 0.0324,
+      "Power BI": 0.03185,
+      "Excel": 0.03296,
+      "Statistics": 0.03179,
+      "Communication": 0.03237,
+      "Problem Solving": 0.03253,
+      "Leadership": 0.03224,
+      "Teamwork": 0.03202,
+      "Aptitude": 0.03266,
+      "CGPA": 0.03299,
+      "Projects Completed": 0.0206,
+      "Internship": 0.01095,
+      "Certifications": 0.01778,
+      "Interest": 0.01903,
+      "Preferred Domain": 0.02173
+    },
+    "permutation_importance": [
+      {
+        "feature": "CSS",
+        "mean_importance": 0.0049,
+        "std_importance": 0.0043
+      },
+      {
+        "feature": "Power BI",
+        "mean_importance": 0.0026,
+        "std_importance": 0.00393
+      },
+      {
+        "feature": "C++",
+        "mean_importance": -0.0003,
+        "std_importance": 0.00465
+      },
+      {
+        "feature": "Git",
+        "mean_importance": -0.0004,
+        "std_importance": 0.00441
+      },
+      {
+        "feature": "Certifications",
+        "mean_importance": -0.0007,
+        "std_importance": 0.00452
+      },
+      {
+        "feature": "Interest",
+        "mean_importance": -0.0009,
+        "std_importance": 0.00413
+      },
+      {
+        "feature": "Communication",
+        "mean_importance": -0.0019,
+        "std_importance": 0.00487
+      },
+      {
+        "feature": "Docker",
+        "mean_importance": -0.0022,
+        "std_importance": 0.00525
+      },
+      {
+        "feature": "Preferred Domain",
+        "mean_importance": -0.0027,
+        "std_importance": 0.00486
+      },
+      {
+        "feature": "Azure",
+        "mean_importance": -0.0027,
+        "std_importance": 0.00431
+      },
+      {
+        "feature": "Problem Solving",
+        "mean_importance": -0.0032,
+        "std_importance": 0.00371
+      },
+      {
+        "feature": "Excel",
+        "mean_importance": -0.0033,
+        "std_importance": 0.00628
+      },
+      {
+        "feature": "Deep Learning",
+        "mean_importance": -0.0035,
+        "std_importance": 0.00512
+      },
+      {
+        "feature": "Machine Learning",
+        "mean_importance": -0.0035,
+        "std_importance": 0.00494
+      },
+      {
+        "feature": "CGPA",
+        "mean_importance": -0.0037,
+        "std_importance": 0.00398
+      },
+      {
+        "feature": "Python",
+        "mean_importance": -0.0046,
+        "std_importance": 0.0053
+      },
+      {
+        "feature": "Aptitude",
+        "mean_importance": -0.0049,
+        "std_importance": 0.00485
+      },
+      {
+        "feature": "Statistics",
+        "mean_importance": -0.0051,
+        "std_importance": 0.00517
+      },
+      {
+        "feature": "Internship",
+        "mean_importance": -0.0056,
+        "std_importance": 0.00297
+      },
+      {
+        "feature": "Leadership",
+        "mean_importance": -0.0065,
+        "std_importance": 0.00372
+      },
+      {
+        "feature": "SQL",
+        "mean_importance": -0.0068,
+        "std_importance": 0.00487
+      },
+      {
+        "feature": "Teamwork",
+        "mean_importance": -0.007,
+        "std_importance": 0.0042
+      },
+      {
+        "feature": "MySQL",
+        "mean_importance": -0.0076,
+        "std_importance": 0.00578
+      },
+      {
+        "feature": "NodeJS",
+        "mean_importance": -0.0083,
+        "std_importance": 0.00398
+      },
+      {
+        "feature": "GitHub",
+        "mean_importance": -0.0086,
+        "std_importance": 0.00445
+      },
+      {
+        "feature": "Java",
+        "mean_importance": -0.009,
+        "std_importance": 0.00454
+      },
+      {
+        "feature": "AWS",
+        "mean_importance": -0.0093,
+        "std_importance": 0.00332
+      },
+      {
+        "feature": "React",
+        "mean_importance": -0.0098,
+        "std_importance": 0.0056
+      },
+      {
+        "feature": "HTML",
+        "mean_importance": -0.01,
+        "std_importance": 0.00438
+      },
+      {
+        "feature": "Projects Completed",
+        "mean_importance": -0.0103,
+        "std_importance": 0.00415
+      },
+      {
+        "feature": "JavaScript",
+        "mean_importance": -0.0112,
+        "std_importance": 0.00583
+      },
+      {
+        "feature": "MongoDB",
+        "mean_importance": -0.0122,
+        "std_importance": 0.00556
+      },
+      {
+        "feature": "Linux",
+        "mean_importance": -0.0123,
+        "std_importance": 0.0051
+      }
+    ]
+  },
+  "ablation_experiments": {
+    "Exp_A_Skills_Only": {
+      "feature_count": 27,
+      "features": [
+        "Python",
+        "Java",
+        "C++",
+        "SQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "NodeJS",
+        "MongoDB",
+        "MySQL",
+        "Git",
+        "GitHub",
+        "AWS",
+        "Azure",
+        "Docker",
+        "Linux",
+        "Machine Learning",
+        "Deep Learning",
+        "Power BI",
+        "Excel",
+        "Statistics",
+        "Communication",
+        "Problem Solving",
+        "Leadership",
+        "Teamwork",
+        "Aptitude"
+      ],
+      "metrics": {
+        "model_name": "RandomForest",
+        "cv_accuracy_mean": 0.0865,
+        "cv_accuracy_std": 0.0071,
+        "cv_macro_f1_mean": 0.0837,
+        "cv_macro_f1_std": 0.0082,
+        "cv_weighted_f1_mean": 0.0845
+      }
+    },
+    "Exp_B_Skills_Academic": {
+      "feature_count": 31,
+      "features": [
+        "Python",
+        "Java",
+        "C++",
+        "SQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "NodeJS",
+        "MongoDB",
+        "MySQL",
+        "Git",
+        "GitHub",
+        "AWS",
+        "Azure",
+        "Docker",
+        "Linux",
+        "Machine Learning",
+        "Deep Learning",
+        "Power BI",
+        "Excel",
+        "Statistics",
+        "Communication",
+        "Problem Solving",
+        "Leadership",
+        "Teamwork",
+        "Aptitude",
+        "CGPA",
+        "Projects Completed",
+        "Internship",
+        "Certifications"
+      ],
+      "metrics": {
+        "model_name": "RandomForest",
+        "cv_accuracy_mean": 0.0858,
+        "cv_accuracy_std": 0.0053,
+        "cv_macro_f1_mean": 0.0817,
+        "cv_macro_f1_std": 0.0051,
+        "cv_weighted_f1_mean": 0.0828
+      }
+    },
+    "Exp_C_Skills_Preferences": {
+      "feature_count": 29,
+      "features": [
+        "Python",
+        "Java",
+        "C++",
+        "SQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "NodeJS",
+        "MongoDB",
+        "MySQL",
+        "Git",
+        "GitHub",
+        "AWS",
+        "Azure",
+        "Docker",
+        "Linux",
+        "Machine Learning",
+        "Deep Learning",
+        "Power BI",
+        "Excel",
+        "Statistics",
+        "Communication",
+        "Problem Solving",
+        "Leadership",
+        "Teamwork",
+        "Aptitude",
+        "Interest",
+        "Preferred Domain"
+      ],
+      "metrics": {
+        "model_name": "RandomForest",
+        "cv_accuracy_mean": 0.0835,
+        "cv_accuracy_std": 0.0092,
+        "cv_macro_f1_mean": 0.08,
+        "cv_macro_f1_std": 0.0085,
+        "cv_weighted_f1_mean": 0.0809
+      }
+    },
+    "Exp_D_Full": {
+      "feature_count": 33,
+      "features": [
+        "Python",
+        "Java",
+        "C++",
+        "SQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "NodeJS",
+        "MongoDB",
+        "MySQL",
+        "Git",
+        "GitHub",
+        "AWS",
+        "Azure",
+        "Docker",
+        "Linux",
+        "Machine Learning",
+        "Deep Learning",
+        "Power BI",
+        "Excel",
+        "Statistics",
+        "Communication",
+        "Problem Solving",
+        "Leadership",
+        "Teamwork",
+        "Aptitude",
+        "CGPA",
+        "Projects Completed",
+        "Internship",
+        "Certifications",
+        "Interest",
+        "Preferred Domain"
+      ],
+      "metrics": {
+        "model_name": "RandomForest",
+        "cv_accuracy_mean": 0.0897,
+        "cv_accuracy_std": 0.0104,
+        "cv_macro_f1_mean": 0.086,
+        "cv_macro_f1_std": 0.0104,
+        "cv_weighted_f1_mean": 0.0869
+      }
+    }
+  },
+  "candidate_model_comparison": [
+    {
+      "model_name": "DummyBaseline",
+      "cv_accuracy_mean": 0.0743,
+      "cv_accuracy_std": 0.0051,
+      "cv_macro_f1_mean": 0.0733,
+      "cv_macro_f1_std": 0.0056,
+      "cv_weighted_f1_mean": 0.0737
+    },
+    {
+      "model_name": "RandomForest",
+      "cv_accuracy_mean": 0.0897,
+      "cv_accuracy_std": 0.0104,
+      "cv_macro_f1_mean": 0.086,
+      "cv_macro_f1_std": 0.0104,
+      "cv_weighted_f1_mean": 0.0869
+    },
+    {
+      "model_name": "DecisionTree",
+      "cv_accuracy_mean": 0.0813,
+      "cv_accuracy_std": 0.0032,
+      "cv_macro_f1_mean": 0.08,
+      "cv_macro_f1_std": 0.0023,
+      "cv_weighted_f1_mean": 0.0809
+    },
+    {
+      "model_name": "LogisticRegression",
+      "cv_accuracy_mean": 0.1058,
+      "cv_accuracy_std": 0.0125,
+      "cv_macro_f1_mean": 0.1025,
+      "cv_macro_f1_std": 0.012,
+      "cv_weighted_f1_mean": 0.1032
+    },
+    {
+      "model_name": "KNN",
+      "cv_accuracy_mean": 0.0778,
+      "cv_accuracy_std": 0.0069,
+      "cv_macro_f1_mean": 0.0735,
+      "cv_macro_f1_std": 0.0071,
+      "cv_weighted_f1_mean": 0.074
+    },
+    {
+      "model_name": "NaiveBayes",
+      "cv_accuracy_mean": 0.0918,
+      "cv_accuracy_std": 0.0081,
+      "cv_macro_f1_mean": 0.0717,
+      "cv_macro_f1_std": 0.0068,
+      "cv_weighted_f1_mean": 0.0726
+    }
+  ],
+  "label_names": [
+    "AI Engineer",
+    "Backend Developer",
+    "Business Analyst",
+    "Cloud Engineer",
+    "Cybersecurity Analyst",
+    "Data Analyst",
+    "Data Scientist",
+    "DevOps Engineer",
+    "Frontend Developer",
+    "Full Stack Developer",
+    "ML Engineer",
+    "Mobile App Developer",
+    "QA Engineer",
+    "Software Engineer"
+  ],
+  "feature_names": [
+    "Python",
+    "Java",
+    "C++",
+    "SQL",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "NodeJS",
+    "MongoDB",
+    "MySQL",
+    "Git",
+    "GitHub",
+    "AWS",
+    "Azure",
+    "Docker",
+    "Linux",
+    "Machine Learning",
+    "Deep Learning",
+    "Power BI",
+    "Excel",
+    "Statistics",
+    "Communication",
+    "Problem Solving",
+    "Leadership",
+    "Teamwork",
+    "Aptitude",
+    "CGPA",
+    "Projects Completed",
+    "Internship",
+    "Certifications",
+    "Interest",
+    "Preferred Domain"
+  ],
+  "synthetic_data_limitation_statement": "IMPORTANT DATA SCIENCE DISCLAIMER: This model was trained and evaluated on a synthetic student dataset generated using controlled parametric distributions. High test accuracy and Macro F1 demonstrate internal statistical validity, absence of data leakage, and algorithmic convergence, but do NOT establish empirical real-world career prediction accuracy or guarantee employment outcomes."
+}

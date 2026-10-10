@@ -1,0 +1,8 @@
+{
+  "candidate_id": "Candidate H",
+  "model_type": "RandomForestClassifier",
+  "class_weight": "None",
+  "feature_configuration": "Skills-only",
+  "selection_basis": "CV only",
+  "holdout_seen_during_selection": false
+}

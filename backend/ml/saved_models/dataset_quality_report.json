@@ -1,0 +1,354 @@
+{
+  "dataset_path": "C:\\Users\\kabhi\\Desktop\\Semester 4 projects\\DSA 3.0\\project-bolt-sb1-djprtkdr\\project\\backend\\ml\\dataset\\student_dataset.csv",
+  "random_seed": 42,
+  "row_count": 5000,
+  "col_count": 34,
+  "total_missing": 0,
+  "total_duplicates": 0,
+  "class_distribution": {
+    "Backend Developer": 396,
+    "AI Engineer": 390,
+    "Mobile App Developer": 388,
+    "Cybersecurity Analyst": 377,
+    "Frontend Developer": 371,
+    "QA Engineer": 363,
+    "Software Engineer": 357,
+    "Business Analyst": 355,
+    "Cloud Engineer": 351,
+    "Data Analyst": 347,
+    "Full Stack Developer": 337,
+    "Data Scientist": 333,
+    "ML Engineer": 322,
+    "DevOps Engineer": 313
+  },
+  "feature_mutual_information": {
+    "React": 0.0251,
+    "Preferred Domain": 0.0227,
+    "Interest": 0.0212,
+    "Teamwork": 0.0203,
+    "Excel": 0.017,
+    "Internship": 0.0164,
+    "C++": 0.0159,
+    "CGPA": 0.0155,
+    "GitHub": 0.0141,
+    "Python": 0.0141,
+    "Git": 0.0133,
+    "Projects Completed": 0.0124,
+    "MySQL": 0.012,
+    "HTML": 0.0114,
+    "MongoDB": 0.0106,
+    "CSS": 0.0102,
+    "Java": 0.0087,
+    "Statistics": 0.0081,
+    "NodeJS": 0.0078,
+    "Machine Learning": 0.0068,
+    "Certifications": 0.0064,
+    "JavaScript": 0.0063,
+    "Problem Solving": 0.0043,
+    "Linux": 0.0038,
+    "AWS": 0.0034,
+    "Azure": 0.0023,
+    "SQL": 0.0018,
+    "Docker": 0.0,
+    "Deep Learning": 0.0,
+    "Power BI": 0.0,
+    "Communication": 0.0,
+    "Leadership": 0.0,
+    "Aptitude": 0.0
+  },
+  "numerical_feature_stats": {
+    "Python": {
+      "mean": 45.67,
+      "std": 13.03,
+      "min": 8.0,
+      "25%": 36.6,
+      "50%": 45.4,
+      "75%": 54.3,
+      "max": 100.0
+    },
+    "Java": {
+      "mean": 45.73,
+      "std": 13.5,
+      "min": 1.6,
+      "25%": 36.3,
+      "50%": 45.5,
+      "75%": 54.9,
+      "max": 93.9
+    },
+    "C++": {
+      "mean": 45.57,
+      "std": 14.23,
+      "min": 1.4,
+      "25%": 35.7,
+      "50%": 45.1,
+      "75%": 55.1,
+      "max": 94.3
+    },
+    "SQL": {
+      "mean": 45.45,
+      "std": 13.68,
+      "min": 1.2,
+      "25%": 35.8,
+      "50%": 45.2,
+      "75%": 54.6,
+      "max": 92.5
+    },
+    "HTML": {
+      "mean": 46.01,
+      "std": 15.25,
+      "min": 3.3,
+      "25%": 35.0,
+      "50%": 45.7,
+      "75%": 56.5,
+      "max": 96.9
+    },
+    "CSS": {
+      "mean": 45.93,
+      "std": 17.01,
+      "min": 0.0,
+      "25%": 33.3,
+      "50%": 45.7,
+      "75%": 58.1,
+      "max": 98.1
+    },
+    "JavaScript": {
+      "mean": 45.62,
+      "std": 14.22,
+      "min": 3.9,
+      "25%": 35.7,
+      "50%": 45.4,
+      "75%": 55.3,
+      "max": 96.9
+    },
+    "React": {
+      "mean": 45.8,
+      "std": 15.89,
+      "min": 0.0,
+      "25%": 34.0,
+      "50%": 45.5,
+      "75%": 57.2,
+      "max": 97.5
+    },
+    "NodeJS": {
+      "mean": 45.59,
+      "std": 14.06,
+      "min": 0.0,
+      "25%": 35.5,
+      "50%": 45.5,
+      "75%": 55.3,
+      "max": 94.3
+    },
+    "MongoDB": {
+      "mean": 45.51,
+      "std": 14.15,
+      "min": 0.0,
+      "25%": 35.4,
+      "50%": 45.3,
+      "75%": 55.0,
+      "max": 92.4
+    },
+    "MySQL": {
+      "mean": 45.7,
+      "std": 14.35,
+      "min": 1.2,
+      "25%": 35.7,
+      "50%": 45.4,
+      "75%": 55.4,
+      "max": 97.1
+    },
+    "Git": {
+      "mean": 45.64,
+      "std": 12.46,
+      "min": 0.0,
+      "25%": 37.0,
+      "50%": 45.5,
+      "75%": 54.0,
+      "max": 94.4
+    },
+    "GitHub": {
+      "mean": 45.79,
+      "std": 12.46,
+      "min": 0.0,
+      "25%": 37.5,
+      "50%": 45.5,
+      "75%": 54.1,
+      "max": 95.3
+    },
+    "AWS": {
+      "mean": 45.65,
+      "std": 13.84,
+      "min": 2.5,
+      "25%": 35.9,
+      "50%": 45.6,
+      "75%": 55.0,
+      "max": 91.8
+    },
+    "Azure": {
+      "mean": 45.57,
+      "std": 13.74,
+      "min": 4.1,
+      "25%": 35.98,
+      "50%": 45.4,
+      "75%": 54.7,
+      "max": 92.3
+    },
+    "Docker": {
+      "mean": 45.54,
+      "std": 13.59,
+      "min": 4.6,
+      "25%": 36.3,
+      "50%": 45.4,
+      "75%": 54.6,
+      "max": 91.8
+    },
+    "Linux": {
+      "mean": 45.44,
+      "std": 13.14,
+      "min": 2.4,
+      "25%": 36.5,
+      "50%": 45.3,
+      "75%": 54.1,
+      "max": 95.0
+    },
+    "Machine Learning": {
+      "mean": 45.62,
+      "std": 14.24,
+      "min": 0.0,
+      "25%": 35.5,
+      "50%": 45.3,
+      "75%": 55.6,
+      "max": 95.8
+    },
+    "Deep Learning": {
+      "mean": 45.54,
+      "std": 15.31,
+      "min": 0.0,
+      "25%": 34.6,
+      "50%": 45.35,
+      "75%": 56.1,
+      "max": 100.0
+    },
+    "Power BI": {
+      "mean": 45.73,
+      "std": 15.12,
+      "min": 0.0,
+      "25%": 34.9,
+      "50%": 45.5,
+      "75%": 56.3,
+      "max": 99.2
+    },
+    "Excel": {
+      "mean": 45.7,
+      "std": 15.54,
+      "min": 0.0,
+      "25%": 34.3,
+      "50%": 45.3,
+      "75%": 56.8,
+      "max": 95.8
+    },
+    "Statistics": {
+      "mean": 45.7,
+      "std": 14.12,
+      "min": 0.1,
+      "25%": 35.9,
+      "50%": 45.3,
+      "75%": 55.2,
+      "max": 100.0
+    },
+    "Communication": {
+      "mean": 45.73,
+      "std": 14.84,
+      "min": 0.0,
+      "25%": 35.3,
+      "50%": 45.3,
+      "75%": 56.0,
+      "max": 95.2
+    },
+    "Problem Solving": {
+      "mean": 45.75,
+      "std": 13.96,
+      "min": 0.0,
+      "25%": 36.1,
+      "50%": 45.6,
+      "75%": 55.0,
+      "max": 93.6
+    },
+    "Leadership": {
+      "mean": 45.78,
+      "std": 15.49,
+      "min": 0.0,
+      "25%": 34.68,
+      "50%": 45.5,
+      "75%": 56.7,
+      "max": 100.0
+    },
+    "Teamwork": {
+      "mean": 45.65,
+      "std": 14.07,
+      "min": 0.0,
+      "25%": 35.8,
+      "50%": 45.5,
+      "75%": 55.4,
+      "max": 95.1
+    },
+    "Aptitude": {
+      "mean": 45.78,
+      "std": 13.63,
+      "min": 0.0,
+      "25%": 36.7,
+      "50%": 45.5,
+      "75%": 54.8,
+      "max": 95.3
+    },
+    "CGPA": {
+      "mean": 7.37,
+      "std": 0.73,
+      "min": 5.5,
+      "25%": 6.87,
+      "50%": 7.36,
+      "75%": 7.85,
+      "max": 10.0
+    },
+    "Projects Completed": {
+      "mean": 4.94,
+      "std": 2.47,
+      "min": 0.0,
+      "25%": 3.0,
+      "50%": 5.0,
+      "75%": 6.0,
+      "max": 15.0
+    },
+    "Internship": {
+      "mean": 1.33,
+      "std": 0.9,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 2.0,
+      "max": 3.0
+    },
+    "Certifications": {
+      "mean": 2.69,
+      "std": 1.79,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 2.0,
+      "75%": 4.0,
+      "max": 10.0
+    }
+  },
+  "preference_leakage_probe": {
+    "features_evaluated": [
+      "Interest",
+      "Preferred Domain"
+    ],
+    "cv_folds": 5,
+    "probe_cv_accuracy_mean": 0.0788,
+    "probe_cv_accuracy_std": 0.0039,
+    "probe_cv_macro_f1": 0.0558,
+    "fit_accuracy": 0.0864,
+    "near_deterministic_categories_found": 0,
+    "near_deterministic_details": [],
+    "leakage_assessment": "PASSED: Preferences do not uniquely or deterministically identify career targets."
+  }
+}
